@@ -1,0 +1,416 @@
+[
+  {
+    "id": "lld-001",
+    "title": "Design Parking Lot System",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a parking lot system that can handle multiple floors, different vehicle types (car, bike, truck), and track available spots. Include entry/exit management and payment calculation.",
+    "tags": ["oop", "design-patterns", "parking"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/discuss/interview-question/object-oriented-design/",
+      "gfg": "https://www.geeksforgeeks.org/design-parking-lot-using-object-oriented-principles/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: ParkingLot, Floor, ParkingSpot, Vehicle, Ticket",
+      "Use Factory pattern for different vehicle types",
+      "Strategy pattern for pricing based on vehicle type and duration",
+      "Consider concurrency for multiple entry/exit points"
+    ],
+    "timeComplexity": "O(1) for most operations",
+    "spaceComplexity": "O(n) where n is number of spots",
+    "companies": ["Zoho", "Amazon", "Google", "Microsoft"]
+  },
+  {
+    "id": "lld-002",
+    "title": "Design Library Management System",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a library management system with book catalog, member management, issue/return books, fine calculation, and book reservation features.",
+    "tags": ["oop", "database", "management"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-a-library-management-system/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Library, Book, Member, Librarian, Transaction, Fine",
+      "Use Singleton for Library instance",
+      "Observer pattern for notifications (due dates, availability)",
+      "Handle multiple copies of same book"
+    ],
+    "timeComplexity": "Varies by operation",
+    "spaceComplexity": "O(books + members)",
+    "companies": ["Zoho", "Infosys", "TCS", "Wipro"]
+  },
+  {
+    "id": "lld-003",
+    "title": "Design ATM Machine",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design an ATM system with authentication, balance inquiry, cash withdrawal, deposit, and transaction history features.",
+    "tags": ["oop", "state-pattern", "banking"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-atm-machine-system/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: ATM, Card, Account, Transaction, CashDispenser",
+      "Use State pattern for ATM states (Idle, CardInserted, PIN verification)",
+      "Strategy pattern for different transaction types",
+      "Handle edge cases: insufficient funds, invalid PIN"
+    ],
+    "timeComplexity": "O(1) for operations",
+    "spaceComplexity": "O(transactions)",
+    "companies": ["Zoho", "Banks", "Financial Services"]
+  },
+  {
+    "id": "lld-004",
+    "title": "Design Elevator System",
+    "difficulty": "Hard",
+    "category": "System Design",
+    "description": "Design an elevator control system for a building with multiple elevators. Implement efficient scheduling algorithm.",
+    "tags": ["oop", "scheduling", "concurrency"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-elevator-system/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Building, Elevator, Request, Scheduler, Direction",
+      "Use Strategy pattern for different scheduling algorithms (FCFS, SCAN, LOOK)",
+      "State pattern for elevator states (Moving, Idle, Maintenance)",
+      "Consider optimization: minimize wait time, energy consumption"
+    ],
+    "timeComplexity": "Depends on algorithm",
+    "spaceComplexity": "O(requests + elevators)",
+    "companies": ["Zoho", "Google", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "lld-005",
+    "title": "Design Chat Application",
+    "difficulty": "Hard",
+    "category": "System Design",
+    "description": "Design a real-time chat application supporting one-on-one and group chats, message delivery status, and user presence.",
+    "tags": ["oop", "messaging", "real-time"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-a-chat-application/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: User, Chat, Message, Group, MessageQueue",
+      "Observer pattern for real-time updates",
+      "Use WebSocket for bidirectional communication",
+      "Consider message persistence and delivery guarantees"
+    ],
+    "timeComplexity": "O(1) for send, O(n) for group messages",
+    "spaceComplexity": "O(messages + users)",
+    "companies": ["Zoho", "WhatsApp", "Telegram", "Slack"]
+  },
+  {
+    "id": "lld-006",
+    "title": "Design Food Delivery System",
+    "difficulty": "Hard",
+    "category": "System Design",
+    "description": "Design a food delivery platform like Swiggy/Zomato with restaurant management, order placement, delivery tracking, and payment.",
+    "tags": ["oop", "delivery", "marketplace"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-food-delivery-system-like-swiggy/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Restaurant, Customer, Order, DeliveryAgent, Menu, Payment",
+      "Strategy pattern for delivery assignment algorithms",
+      "State pattern for order status (Placed, Preparing, Out for Delivery, Delivered)",
+      "Consider rating system and search functionality"
+    ],
+    "timeComplexity": "Varies by operation",
+    "spaceComplexity": "O(restaurants + orders + users)",
+    "companies": ["Zoho", "Swiggy", "Zomato", "Uber Eats"]
+  },
+  {
+    "id": "lld-007",
+    "title": "Design Movie Booking System",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a movie ticket booking system like BookMyShow with theater management, seat selection, and booking confirmation.",
+    "tags": ["oop", "booking", "concurrency"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-movie-ticket-booking-system-like-bookmyshow/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Movie, Theater, Show, Seat, Booking, Payment",
+      "Handle concurrent booking with locking mechanism",
+      "Use State pattern for seat status (Available, Locked, Booked)",
+      "Implement seat hold timeout mechanism"
+    ],
+    "timeComplexity": "O(1) for booking, O(n) for search",
+    "spaceComplexity": "O(theaters + shows + bookings)",
+    "companies": ["Zoho", "BookMyShow", "Paytm", "Amazon"]
+  },
+  {
+    "id": "lld-008",
+    "title": "Design Online Shopping Cart",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design an e-commerce shopping cart system with product catalog, cart management, checkout, and order processing.",
+    "tags": ["oop", "e-commerce", "cart"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-shopping-cart-system/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Product, Cart, Order, User, Payment, Inventory",
+      "Strategy pattern for pricing strategies (discounts, coupons)",
+      "Observer pattern for inventory updates",
+      "Consider cart persistence and session management"
+    ],
+    "timeComplexity": "O(1) for cart operations",
+    "spaceComplexity": "O(products + users + orders)",
+    "companies": ["Zoho", "Amazon", "Flipkart", "Walmart"]
+  },
+  {
+    "id": "lld-009",
+    "title": "Design Social Media Platform",
+    "difficulty": "Hard",
+    "category": "System Design",
+    "description": "Design a social media platform with user profiles, posts, comments, likes, follow/unfollow, and news feed generation.",
+    "tags": ["oop", "social-media", "feed"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-a-social-network-like-facebook/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: User, Post, Comment, Like, Friendship, NewsFeed",
+      "Use Observer pattern for feed updates",
+      "Consider privacy settings (public, friends, private)",
+      "Implement efficient feed generation algorithm"
+    ],
+    "timeComplexity": "Varies by operation",
+    "spaceComplexity": "O(users + posts + connections)",
+    "companies": ["Zoho", "Facebook", "Instagram", "Twitter"]
+  },
+  {
+    "id": "lld-010",
+    "title": "Design File System",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design an in-memory file system with support for creating files/directories, reading/writing content, and path navigation.",
+    "tags": ["oop", "tree", "file-system"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/design-in-memory-file-system/",
+      "gfg": "https://www.geeksforgeeks.org/design-an-in-memory-file-system/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: FileSystem, File, Directory, Node",
+      "Use Composite pattern for files and directories",
+      "Implement tree structure for hierarchy",
+      "Support operations: ls, mkdir, addContent, readContent"
+    ],
+    "timeComplexity": "O(depth) for path traversal",
+    "spaceComplexity": "O(files + directories)",
+    "companies": ["Zoho", "Google", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "lld-011",
+    "title": "Design URL Shortener",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a URL shortening service like bit.ly with custom aliases, analytics, and expiration.",
+    "tags": ["oop", "hashing", "url"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+      "gfg": "https://www.geeksforgeeks.org/how-to-design-a-tiny-url-or-url-shortener/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: URLService, URL, Analytics, Database",
+      "Use base62 encoding for short URLs",
+      "Handle collisions with counter or random generation",
+      "Track analytics: clicks, referrers, timestamps"
+    ],
+    "timeComplexity": "O(1) for encoding/decoding",
+    "spaceComplexity": "O(n) where n is number of URLs",
+    "companies": ["Zoho", "Google", "Amazon", "Twitter"]
+  },
+  {
+    "id": "lld-012",
+    "title": "Design Rate Limiter",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a rate limiter to control the rate of requests sent or received by a system.",
+    "tags": ["oop", "throttling", "algorithm"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/logger-rate-limiter/",
+      "gfg": "https://www.geeksforgeeks.org/design-a-rate-limiter/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Algorithms: Token Bucket, Leaky Bucket, Fixed Window, Sliding Window",
+      "Classes: RateLimiter, TokenBucket, RequestCounter",
+      "Use Redis or in-memory cache for distributed systems",
+      "Consider time-based expiration"
+    ],
+    "timeComplexity": "O(1) per request",
+    "spaceComplexity": "O(users)",
+    "companies": ["Zoho", "Google", "Amazon", "Cloudflare"]
+  },
+  {
+    "id": "lld-013",
+    "title": "Design Notification System",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a notification service that supports multiple channels (email, SMS, push) with retry logic and templates.",
+    "tags": ["oop", "notifications", "messaging"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-a-notification-service/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: NotificationService, Channel, Template, Queue, Retry",
+      "Strategy pattern for different notification channels",
+      "Use message queue for async processing",
+      "Implement exponential backoff for retries"
+    ],
+    "timeComplexity": "O(1) for queuing",
+    "spaceComplexity": "O(pending notifications)",
+    "companies": ["Zoho", "Amazon", "Google", "Twilio"]
+  },
+  {
+    "id": "lld-014",
+    "title": "Design Snake and Ladder Game",
+    "difficulty": "Easy",
+    "category": "Game Design",
+    "description": "Design a snake and ladder board game with multiple players, dice rolling, and win conditions.",
+    "tags": ["oop", "game", "simulation"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-snake-game/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Game, Board, Player, Dice, Snake, Ladder",
+      "Use HashMap to store snake and ladder positions",
+      "Implement turn-based gameplay",
+      "Handle edge cases: multiple players on same cell, winning condition"
+    ],
+    "timeComplexity": "O(1) per move",
+    "spaceComplexity": "O(board size + players)",
+    "companies": ["Zoho", "Gaming Companies"]
+  },
+  {
+    "id": "lld-015",
+    "title": "Design Logging Framework",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a logging framework with different log levels, multiple outputs (file, console), and log rotation.",
+    "tags": ["oop", "logging", "framework"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-a-logger-system/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Logger, LogLevel, Appender, Formatter, Filter",
+      "Singleton pattern for Logger instance",
+      "Strategy pattern for different appenders (file, console, database)",
+      "Chain of Responsibility for log level filtering"
+    ],
+    "timeComplexity": "O(1) for logging",
+    "spaceComplexity": "O(log entries)",
+    "companies": ["Zoho", "All Tech Companies"]
+  },
+  {
+    "id": "lld-016",
+    "title": "Design Vending Machine",
+    "difficulty": "Medium",
+    "category": "System Design",
+    "description": "Design a vending machine with product selection, payment processing, change return, and inventory management.",
+    "tags": ["oop", "state-pattern", "machine"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-a-vending-machine/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: VendingMachine, Product, Inventory, Coin, State",
+      "State pattern for machine states (Idle, SelectProduct, Payment, Dispense)",
+      "Handle insufficient balance, sold out items",
+      "Calculate change with minimum coins"
+    ],
+    "timeComplexity": "O(1) for operations",
+    "spaceComplexity": "O(products + coins)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "lld-017",
+    "title": "Design Hotel Booking System",
+    "difficulty": "Hard",
+    "category": "System Design",
+    "description": "Design a hotel reservation system with room availability, booking, cancellation, and pricing based on occupancy.",
+    "tags": ["oop", "booking", "hotel"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-hotel-booking-system/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Hotel, Room, Booking, Customer, Payment, Availability",
+      "Handle date range queries efficiently",
+      "Strategy pattern for pricing (seasonal, occupancy-based)",
+      "Consider overbooking and cancellation policies"
+    ],
+    "timeComplexity": "O(log n) for availability check",
+    "spaceComplexity": "O(bookings + rooms)",
+    "companies": ["Zoho", "OYO", "Airbnb", "Booking.com"]
+  },
+  {
+    "id": "lld-018",
+    "title": "Design Chess Game",
+    "difficulty": "Hard",
+    "category": "Game Design",
+    "description": "Design a chess game with all piece movements, check/checkmate detection, and game state management.",
+    "tags": ["oop", "game", "chess"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/design-a-chess-game/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Classes: Game, Board, Piece, Player, Move, Position",
+      "Use Strategy pattern for different piece movements",
+      "Implement move validation for each piece type",
+      "Handle special moves: castling, en passant, pawn promotion"
+    ],
+    "timeComplexity": "O(1) for move validation",
+    "spaceComplexity": "O(1) for board",
+    "companies": ["Zoho", "Chess.com", "Gaming Companies"]
+  }
+]
