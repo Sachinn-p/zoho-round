@@ -107,7 +107,7 @@ async function performGlobalSearch(searchTerm, difficulty = '', category = '') {
     }
 
     searchResults.style.display = 'block';
-    searchResultsContainer.innerHTML = '<div class="loading">Searching</div>';
+    searchResultsContainer.innerHTML = '<div class="loading">Searching...</div>';
 
     try {
         // Load all question files
