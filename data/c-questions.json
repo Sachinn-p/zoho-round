@@ -1,0 +1,490 @@
+[
+  {
+    "id": "c-001",
+    "title": "Reverse a String Without Library Functions",
+    "difficulty": "Easy",
+    "category": "Arrays & Strings",
+    "description": "Write a C program to reverse a string without using any string library functions like strrev().",
+    "tags": ["string", "array", "basic"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/reverse-string/",
+      "gfg": "https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/",
+      "hackerrank": "https://www.hackerrank.com/challenges/reverse-string/",
+      "codechef": ""
+    },
+    "hints": [
+      "Use two pointers approach - one at start, one at end",
+      "Swap characters and move pointers towards center"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "c-002",
+    "title": "Factorial Using Recursion and Iteration",
+    "difficulty": "Easy",
+    "category": "Functions",
+    "description": "Implement two functions to calculate factorial: one using recursion and another using iteration. Compare their performance.",
+    "tags": ["recursion", "iteration", "mathematics"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/program-for-factorial-of-a-number/",
+      "hackerrank": "https://www.hackerrank.com/challenges/functional-programming-warmups-in-recursion---gcd/",
+      "codechef": ""
+    },
+    "hints": [
+      "Recursive: factorial(n) = n * factorial(n-1), base case: factorial(0) = 1",
+      "Iterative: Use a loop to multiply numbers from 1 to n"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(n) for recursion, O(1) for iteration",
+    "companies": ["Zoho", "TCS", "Infosys"]
+  },
+  {
+    "id": "c-003",
+    "title": "Implement strcpy Function",
+    "difficulty": "Easy",
+    "category": "Arrays & Strings",
+    "description": "Implement your own version of the strcpy() function that copies a string from source to destination.",
+    "tags": ["string", "pointers", "implementation"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/implement-strcpy-in-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use pointers to traverse both strings",
+      "Copy character by character until null terminator",
+      "Don't forget to add null terminator at the end"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Samsung", "Qualcomm"]
+  },
+  {
+    "id": "c-004",
+    "title": "Implement strcat Function",
+    "difficulty": "Easy",
+    "category": "Arrays & Strings",
+    "description": "Implement your own version of the strcat() function that concatenates two strings.",
+    "tags": ["string", "pointers", "implementation"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/implement-strcat-in-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "First, find the end of destination string",
+      "Then copy source string from that position",
+      "Ensure null terminator is placed correctly"
+    ],
+    "timeComplexity": "O(m+n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Oracle", "IBM"]
+  },
+  {
+    "id": "c-005",
+    "title": "Pointer to Pointer (Double Pointer)",
+    "difficulty": "Medium",
+    "category": "Pointers",
+    "description": "Write a program demonstrating pointer to pointer concept. Swap two numbers using double pointers.",
+    "tags": ["pointers", "memory", "advanced"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Double pointer points to address of another pointer",
+      "Use **ptr to access the actual value",
+      "Remember: ptr -> *ptr -> **ptr"
+    ],
+    "timeComplexity": "O(1)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "c-006",
+    "title": "Structure vs Union Differences",
+    "difficulty": "Easy",
+    "category": "Structures & Unions",
+    "description": "Create a program to demonstrate the key differences between structures and unions, especially memory allocation.",
+    "tags": ["structure", "union", "memory"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/difference-structure-union-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Structure allocates separate memory for each member",
+      "Union allocates shared memory (size of largest member)",
+      "Print sizeof() for both to see the difference"
+    ],
+    "timeComplexity": "O(1)",
+    "spaceComplexity": "Varies based on members",
+    "companies": ["Zoho", "Microsoft", "Intel"]
+  },
+  {
+    "id": "c-007",
+    "title": "File Read and Write Operations",
+    "difficulty": "Medium",
+    "category": "File Handling",
+    "description": "Write a program to read data from a file, process it (e.g., count words, lines), and write results to another file.",
+    "tags": ["file", "io", "streams"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/basics-file-handling-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use fopen() to open files with appropriate modes",
+      "Use fgets() or fscanf() to read data",
+      "Use fprintf() or fputs() to write data",
+      "Always close files with fclose()"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Adobe", "Oracle"]
+  },
+  {
+    "id": "c-008",
+    "title": "Dynamic Memory Allocation (malloc, calloc, realloc)",
+    "difficulty": "Medium",
+    "category": "Advanced Topics",
+    "description": "Demonstrate the differences between malloc, calloc, and realloc. Create a dynamic array that grows as needed.",
+    "tags": ["memory", "dynamic", "pointers"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "malloc allocates uninitialized memory",
+      "calloc allocates and initializes memory to zero",
+      "realloc resizes previously allocated memory",
+      "Always check if allocation succeeded (NULL check)"
+    ],
+    "timeComplexity": "O(1) for allocation",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "c-009",
+    "title": "Function Pointers Implementation",
+    "difficulty": "Hard",
+    "category": "Advanced Topics",
+    "description": "Create a calculator program using function pointers. Implement add, subtract, multiply, divide operations.",
+    "tags": ["function-pointer", "advanced", "callbacks"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/function-pointer-in-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Declare function pointer with matching signature",
+      "Store addresses of functions in pointer",
+      "Call functions through pointer dereference"
+    ],
+    "timeComplexity": "O(1)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "NVIDIA", "Intel"]
+  },
+  {
+    "id": "c-010",
+    "title": "Find Second Largest Element in Array",
+    "difficulty": "Easy",
+    "category": "Arrays & Strings",
+    "description": "Write a C program to find the second largest element in an array without sorting.",
+    "tags": ["array", "logic", "optimization"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      "gfg": "https://www.geeksforgeeks.org/find-second-largest-element-array/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Track both largest and second largest in single pass",
+      "Update both when needed",
+      "Handle edge cases (all elements same, less than 2 elements)"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "c-011",
+    "title": "Check if String is Palindrome",
+    "difficulty": "Easy",
+    "category": "Arrays & Strings",
+    "description": "Write a function to check if a given string is a palindrome, ignoring spaces and case.",
+    "tags": ["string", "two-pointer", "palindrome"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/valid-palindrome/",
+      "gfg": "https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use two pointers from start and end",
+      "Skip non-alphanumeric characters",
+      "Convert to same case for comparison"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Facebook", "Google"]
+  },
+  {
+    "id": "c-012",
+    "title": "Matrix Transpose",
+    "difficulty": "Easy",
+    "category": "Arrays & Strings",
+    "description": "Write a program to find the transpose of a matrix. Handle both square and rectangular matrices.",
+    "tags": ["matrix", "2d-array", "transformation"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/transpose-matrix/",
+      "gfg": "https://www.geeksforgeeks.org/program-to-find-transpose-of-a-matrix/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Transpose means rows become columns",
+      "For m×n matrix, transpose is n×m",
+      "Element at [i][j] goes to [j][i]"
+    ],
+    "timeComplexity": "O(m*n)",
+    "spaceComplexity": "O(m*n)",
+    "companies": ["Zoho", "Samsung", "Oracle"]
+  },
+  {
+    "id": "c-013",
+    "title": "Linked List Implementation",
+    "difficulty": "Medium",
+    "category": "Advanced Topics",
+    "description": "Implement a singly linked list with operations: insert, delete, search, and display.",
+    "tags": ["linked-list", "pointers", "data-structure"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/tag/linked-list/",
+      "gfg": "https://www.geeksforgeeks.org/data-structures/linked-list/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Define node structure with data and next pointer",
+      "Maintain head pointer to track start of list",
+      "Update pointers carefully during insert/delete"
+    ],
+    "timeComplexity": "O(n) for operations",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "c-014",
+    "title": "Bitwise Operations - Count Set Bits",
+    "difficulty": "Medium",
+    "category": "Basic Concepts",
+    "description": "Write a program to count the number of set bits (1s) in the binary representation of a number.",
+    "tags": ["bitwise", "binary", "optimization"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/number-of-1-bits/",
+      "gfg": "https://www.geeksforgeeks.org/count-set-bits-in-an-integer/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use n & (n-1) to remove rightmost set bit",
+      "Count how many times this can be done",
+      "Alternative: Check each bit using right shift"
+    ],
+    "timeComplexity": "O(log n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Microsoft", "Google"]
+  },
+  {
+    "id": "c-015",
+    "title": "Swap Two Numbers Without Temp Variable",
+    "difficulty": "Easy",
+    "category": "Basic Concepts",
+    "description": "Implement three different methods to swap two numbers without using a temporary variable.",
+    "tags": ["arithmetic", "bitwise", "logic"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Method 1: Using addition and subtraction",
+      "Method 2: Using multiplication and division",
+      "Method 3: Using XOR bitwise operation"
+    ],
+    "timeComplexity": "O(1)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "TCS", "Wipro"]
+  },
+  {
+    "id": "c-016",
+    "title": "Find Prime Numbers Using Sieve of Eratosthenes",
+    "difficulty": "Medium",
+    "category": "Basic Concepts",
+    "description": "Implement the Sieve of Eratosthenes algorithm to find all prime numbers up to n.",
+    "tags": ["prime", "sieve", "mathematics"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/count-primes/",
+      "gfg": "https://www.geeksforgeeks.org/sieve-of-eratosthenes/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Create boolean array for numbers 0 to n",
+      "Mark multiples of each prime as composite",
+      "Start with 2 and mark 4, 6, 8, ... as non-prime"
+    ],
+    "timeComplexity": "O(n log log n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "c-017",
+    "title": "Variable Scope and Storage Classes",
+    "difficulty": "Medium",
+    "category": "Basic Concepts",
+    "description": "Demonstrate the differences between auto, static, extern, and register storage classes with examples.",
+    "tags": ["scope", "storage", "variables"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/storage-classes-in-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "auto: default, local scope, automatic allocation",
+      "static: retains value between function calls",
+      "extern: declares variable defined elsewhere",
+      "register: suggests CPU register storage"
+    ],
+    "timeComplexity": "N/A",
+    "spaceComplexity": "Varies",
+    "companies": ["Zoho", "Intel", "NVIDIA"]
+  },
+  {
+    "id": "c-018",
+    "title": "Command Line Arguments Processing",
+    "difficulty": "Easy",
+    "category": "Advanced Topics",
+    "description": "Write a program that processes command line arguments (argc, argv) and performs operations based on them.",
+    "tags": ["arguments", "main", "input"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "argc contains count of arguments (including program name)",
+      "argv is array of strings containing arguments",
+      "argv[0] is program name, argv[1] is first argument"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "IBM", "Oracle"]
+  },
+  {
+    "id": "c-019",
+    "title": "String Tokenization (strtok implementation)",
+    "difficulty": "Medium",
+    "category": "Arrays & Strings",
+    "description": "Implement your own version of strtok() function to split a string based on delimiters.",
+    "tags": ["string", "parsing", "implementation"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/strtok-strtok_r-functions-c-examples/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use static variable to remember position",
+      "Replace delimiter with null terminator",
+      "Return pointer to start of each token"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "c-020",
+    "title": "Binary File Operations",
+    "difficulty": "Hard",
+    "category": "File Handling",
+    "description": "Create a program to write and read structures to/from binary files. Implement a simple student database.",
+    "tags": ["file", "binary", "structure"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/readingwriting-binary-files-c/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use 'rb' and 'wb' modes for binary files",
+      "Use fread() and fwrite() for binary I/O",
+      "Write entire structure at once",
+      "Be careful with padding in structures"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Oracle", "IBM"]
+  },
+  {
+    "id": "c-021",
+    "title": "Macro vs Function",
+    "difficulty": "Easy",
+    "category": "Basic Concepts",
+    "description": "Create examples demonstrating the differences between macros and functions, including side effects and type safety.",
+    "tags": ["macro", "preprocessor", "function"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/macros-vs-functions/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Macros: preprocessor replacement, no type checking",
+      "Functions: type-safe, have overhead of call",
+      "Show side effects with increment in macro"
+    ],
+    "timeComplexity": "N/A",
+    "spaceComplexity": "N/A",
+    "companies": ["Zoho", "Intel", "Qualcomm"]
+  },
+  {
+    "id": "c-022",
+    "title": "Memory Layout of C Program",
+    "difficulty": "Medium",
+    "category": "Advanced Topics",
+    "description": "Write a program to demonstrate different memory segments: Text, Data, BSS, Heap, and Stack.",
+    "tags": ["memory", "segments", "organization"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/memory-layout-of-c-program/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Text: code/instructions",
+      "Data: initialized global/static variables",
+      "BSS: uninitialized global/static variables",
+      "Heap: dynamic allocation (malloc)",
+      "Stack: local variables, function calls"
+    ],
+    "timeComplexity": "N/A",
+    "spaceComplexity": "Varies",
+    "companies": ["Zoho", "Google", "Amazon"]
+  }
+]

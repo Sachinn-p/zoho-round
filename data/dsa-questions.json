@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "dsa-001",
+    "title": "Rotate Array by K Positions",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given an array, rotate the array to the right by k steps, where k is non-negative.",
+    "tags": ["array", "rotation", "two-pointer"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/rotate-array/",
+      "gfg": "https://www.geeksforgeeks.org/array-rotation/",
+      "hackerrank": "https://www.hackerrank.com/challenges/array-left-rotation/",
+      "codechef": ""
+    },
+    "hints": [
+      "Reverse entire array, then reverse first k elements and last n-k elements",
+      "Use modulo operation to handle k > n",
+      "Can also use auxiliary array or cyclic replacements"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Microsoft", "Amazon"]
+  },
+  {
+    "id": "dsa-002",
+    "title": "Find Missing Number in Array",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given an array containing n distinct numbers from 0 to n, find the missing number.",
+    "tags": ["array", "mathematics", "bit-manipulation"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/missing-number/",
+      "gfg": "https://www.geeksforgeeks.org/find-the-missing-number/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use sum formula: n*(n+1)/2 - sum of array",
+      "Or use XOR properties: a^a = 0, a^0 = a",
+      "Or use binary search if array is sorted"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-003",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Given a string, find the longest substring which is a palindrome.",
+    "tags": ["string", "palindrome", "dynamic-programming"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/longest-palindromic-substring/",
+      "gfg": "https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Expand around center for each position",
+      "Handle both odd and even length palindromes",
+      "Or use DP table to store palindrome info"
+    ],
+    "timeComplexity": "O(n^2)",
+    "spaceComplexity": "O(1) or O(n^2) with DP",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-004",
+    "title": "Implement Stack Using Queues",
+    "difficulty": "Easy",
+    "category": "Stacks & Queues",
+    "description": "Implement a last-in-first-out (LIFO) stack using only two queues.",
+    "tags": ["stack", "queue", "design"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/implement-stack-using-queues/",
+      "gfg": "https://www.geeksforgeeks.org/implement-stack-using-queue/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use one queue as main, other as auxiliary",
+      "For push: enqueue and rotate all previous elements",
+      "Or make pop operation costly instead"
+    ],
+    "timeComplexity": "O(n) for push or pop",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Google", "Facebook"]
+  },
+  {
+    "id": "dsa-005",
+    "title": "Level Order Tree Traversal",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values (i.e., from left to right, level by level).",
+    "tags": ["tree", "bfs", "traversal"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      "gfg": "https://www.geeksforgeeks.org/level-order-tree-traversal/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use queue for BFS traversal",
+      "Track level size before processing each level",
+      "Add children to queue while processing current level"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-006",
+    "title": "Find Strongly Connected Components",
+    "difficulty": "Hard",
+    "category": "Graphs",
+    "description": "Given a directed graph, find all strongly connected components using Kosaraju's or Tarjan's algorithm.",
+    "tags": ["graph", "dfs", "scc"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/critical-connections-in-a-network/",
+      "gfg": "https://www.geeksforgeeks.org/strongly-connected-components/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Kosaraju: DFS on original graph, DFS on transpose graph",
+      "Use stack to store finish times",
+      "Process vertices in decreasing finish time order"
+    ],
+    "timeComplexity": "O(V+E)",
+    "spaceComplexity": "O(V)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-007",
+    "title": "Coin Change Problem",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "description": "Given coins of different denominations and a total amount, find the minimum number of coins needed to make that amount.",
+    "tags": ["dp", "optimization", "coins"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/coin-change/",
+      "gfg": "https://www.geeksforgeeks.org/coin-change-dp-7/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use DP array where dp[i] = min coins for amount i",
+      "For each amount, try all coins and take minimum",
+      "Base case: dp[0] = 0"
+    ],
+    "timeComplexity": "O(amount * coins)",
+    "spaceComplexity": "O(amount)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-008",
+    "title": "N-Queens Problem",
+    "difficulty": "Hard",
+    "category": "Backtracking",
+    "description": "Place N queens on an N×N chessboard so that no two queens attack each other.",
+    "tags": ["backtracking", "recursion", "chess"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/n-queens/",
+      "gfg": "https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Place queens row by row",
+      "Check if current position is safe (no conflict)",
+      "Backtrack if no safe position in current row"
+    ],
+    "timeComplexity": "O(N!)",
+    "spaceComplexity": "O(N^2)",
+    "companies": ["Zoho", "Microsoft", "Amazon"]
+  },
+  {
+    "id": "dsa-009",
+    "title": "Two Sum Problem",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given an array of integers and a target sum, return indices of two numbers that add up to target.",
+    "tags": ["array", "hash-table", "two-pointer"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/two-sum/",
+      "gfg": "https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use hash map to store value and index",
+      "For each element, check if target-element exists",
+      "One-pass solution possible"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Facebook", "Amazon"]
+  },
+  {
+    "id": "dsa-010",
+    "title": "Merge Two Sorted Arrays",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Merge two sorted arrays into one sorted array efficiently.",
+    "tags": ["array", "merge", "two-pointer"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/merge-sorted-array/",
+      "gfg": "https://www.geeksforgeeks.org/merge-two-sorted-arrays/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use two pointers, one for each array",
+      "Compare elements and add smaller to result",
+      "Handle remaining elements from longer array"
+    ],
+    "timeComplexity": "O(m+n)",
+    "spaceComplexity": "O(m+n)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-011",
+    "title": "Check if String Contains Anagram",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Given two strings, check if they are anagrams of each other.",
+    "tags": ["string", "anagram", "hash-table"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/valid-anagram/",
+      "gfg": "https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Sort both strings and compare",
+      "Or use frequency count array/hash map",
+      "Both should have same length"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1) with fixed alphabet",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-012",
+    "title": "Reverse a Linked List",
+    "difficulty": "Easy",
+    "category": "Linked Lists",
+    "description": "Reverse a singly linked list iteratively and recursively.",
+    "tags": ["linked-list", "pointer", "recursion"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/reverse-linked-list/",
+      "gfg": "https://www.geeksforgeeks.org/reverse-a-linked-list/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Iterative: Use three pointers (prev, curr, next)",
+      "Recursive: Reverse rest of list, then adjust pointers",
+      "Be careful with head pointer update"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1) iterative, O(n) recursive",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-013",
+    "title": "Detect Cycle in Linked List",
+    "difficulty": "Easy",
+    "category": "Linked Lists",
+    "description": "Given a linked list, determine if it has a cycle in it using Floyd's algorithm.",
+    "tags": ["linked-list", "two-pointer", "cycle"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/linked-list-cycle/",
+      "gfg": "https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use slow and fast pointers (tortoise and hare)",
+      "If they meet, there's a cycle",
+      "If fast reaches NULL, no cycle"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-014",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "category": "Stacks & Queues",
+    "description": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+    "tags": ["stack", "string", "matching"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/valid-parentheses/",
+      "gfg": "https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use stack to track opening brackets",
+      "When closing bracket found, check if it matches top",
+      "Stack should be empty at the end"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-015",
+    "title": "Binary Tree Maximum Depth",
+    "difficulty": "Easy",
+    "category": "Trees",
+    "description": "Find the maximum depth (or height) of a binary tree.",
+    "tags": ["tree", "recursion", "dfs"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      "gfg": "https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Recursively find depth of left and right subtrees",
+      "Return max of both plus 1",
+      "Base case: empty tree has depth 0"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(h) where h is height",
+    "companies": ["Zoho", "Amazon", "Facebook"]
+  },
+  {
+    "id": "dsa-016",
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "description": "Determine if a binary tree is a valid binary search tree (BST).",
+    "tags": ["tree", "bst", "validation"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/validate-binary-search-tree/",
+      "gfg": "https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use range checking: each node has valid range",
+      "Or use inorder traversal (should be sorted)",
+      "Be careful with duplicate values"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(h)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-017",
+    "title": "Breadth First Search (BFS)",
+    "difficulty": "Medium",
+    "category": "Graphs",
+    "description": "Implement BFS for a graph and find shortest path from source to all vertices.",
+    "tags": ["graph", "bfs", "queue"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/tag/breadth-first-search/",
+      "gfg": "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use queue to store vertices to visit",
+      "Mark vertices as visited to avoid cycles",
+      "Process all neighbors of current vertex"
+    ],
+    "timeComplexity": "O(V+E)",
+    "spaceComplexity": "O(V)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-018",
+    "title": "Depth First Search (DFS)",
+    "difficulty": "Medium",
+    "category": "Graphs",
+    "description": "Implement DFS for a graph (both recursive and iterative).",
+    "tags": ["graph", "dfs", "recursion"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/tag/depth-first-search/",
+      "gfg": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Recursive: Visit node, then recursively visit neighbors",
+      "Iterative: Use stack instead of recursion",
+      "Mark visited to avoid infinite loops"
+    ],
+    "timeComplexity": "O(V+E)",
+    "spaceComplexity": "O(V)",
+    "companies": ["Zoho", "Amazon", "Facebook"]
+  },
+  {
+    "id": "dsa-019",
+    "title": "Dijkstra's Shortest Path",
+    "difficulty": "Hard",
+    "category": "Graphs",
+    "description": "Implement Dijkstra's algorithm to find shortest paths from source to all vertices in weighted graph.",
+    "tags": ["graph", "shortest-path", "dijkstra"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/network-delay-time/",
+      "gfg": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use priority queue (min heap) for efficiency",
+      "Maintain distance array, update if shorter path found",
+      "Only works with non-negative weights"
+    ],
+    "timeComplexity": "O((V+E) log V)",
+    "spaceComplexity": "O(V)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-020",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "description": "Find the length of the longest common subsequence between two strings.",
+    "tags": ["dp", "string", "subsequence"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/longest-common-subsequence/",
+      "gfg": "https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use 2D DP table",
+      "If characters match: dp[i][j] = 1 + dp[i-1][j-1]",
+      "Else: dp[i][j] = max(dp[i-1][j], dp[i][j-1])"
+    ],
+    "timeComplexity": "O(m*n)",
+    "spaceComplexity": "O(m*n)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-021",
+    "title": "0/1 Knapsack Problem",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "description": "Given weights and values of items, put items in a knapsack of capacity W to get maximum value.",
+    "tags": ["dp", "optimization", "knapsack"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/tag/knapsack/",
+      "gfg": "https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use 2D DP: items × capacity",
+      "For each item, either include or exclude",
+      "Take maximum of both choices"
+    ],
+    "timeComplexity": "O(n*W)",
+    "spaceComplexity": "O(n*W)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-022",
+    "title": "Fibonacci Number",
+    "difficulty": "Easy",
+    "category": "Dynamic Programming",
+    "description": "Find the nth Fibonacci number efficiently using dynamic programming.",
+    "tags": ["dp", "fibonacci", "mathematics"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/fibonacci-number/",
+      "gfg": "https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use bottom-up DP with array",
+      "Or use space-optimized version with two variables",
+      "Or use matrix exponentiation for O(log n)"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1) optimized",
+    "companies": ["Zoho", "Amazon", "Facebook"]
+  },
+  {
+    "id": "dsa-023",
+    "title": "Maximum Subarray Sum (Kadane's Algorithm)",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Find the contiguous subarray with the largest sum.",
+    "tags": ["array", "kadane", "greedy"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/maximum-subarray/",
+      "gfg": "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Track current sum and maximum sum",
+      "If current sum becomes negative, reset to 0",
+      "Update maximum at each step"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-024",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Search for a target value in a rotated sorted array using modified binary search.",
+    "tags": ["array", "binary-search", "rotation"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      "gfg": "https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Find which half is sorted",
+      "Check if target is in sorted half",
+      "Adjust binary search accordingly"
+    ],
+    "timeComplexity": "O(log n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-025",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given a collection of intervals, merge all overlapping intervals.",
+    "tags": ["array", "interval", "sorting"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/merge-intervals/",
+      "gfg": "https://www.geeksforgeeks.org/merging-intervals/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Sort intervals by start time",
+      "Compare current interval with last merged",
+      "Merge if overlapping, else add to result"
+    ],
+    "timeComplexity": "O(n log n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Facebook"]
+  },
+  {
+    "id": "dsa-026",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Find the length of the longest substring without repeating characters.",
+    "tags": ["string", "sliding-window", "hash-table"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "gfg": "https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use sliding window with two pointers",
+      "Use hash set to track characters in window",
+      "Move left pointer when duplicate found"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(min(m,n)) where m is charset size",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-027",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Given an array of strings, group anagrams together.",
+    "tags": ["string", "hash-table", "sorting"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/group-anagrams/",
+      "gfg": "https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Sort each string as key for hash map",
+      "Or use character count as key",
+      "Group strings with same key"
+    ],
+    "timeComplexity": "O(n*k log k) where k is max string length",
+    "spaceComplexity": "O(n*k)",
+    "companies": ["Zoho", "Amazon", "Facebook"]
+  },
+  {
+    "id": "dsa-028",
+    "title": "Implement Queue Using Stacks",
+    "difficulty": "Easy",
+    "category": "Stacks & Queues",
+    "description": "Implement a FIFO queue using only two stacks.",
+    "tags": ["queue", "stack", "design"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/implement-queue-using-stacks/",
+      "gfg": "https://www.geeksforgeeks.org/queue-using-stacks/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use one stack for enqueue, one for dequeue",
+      "Transfer elements when dequeue stack is empty",
+      "Amortized O(1) for all operations"
+    ],
+    "timeComplexity": "O(1) amortized",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-029",
+    "title": "LRU Cache Implementation",
+    "difficulty": "Hard",
+    "category": "Stacks & Queues",
+    "description": "Design and implement a Least Recently Used (LRU) cache.",
+    "tags": ["cache", "design", "hash-table"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/lru-cache/",
+      "gfg": "https://www.geeksforgeeks.org/lru-cache-implementation/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use doubly linked list + hash map",
+      "Hash map for O(1) access",
+      "Doubly linked list for O(1) update/remove"
+    ],
+    "timeComplexity": "O(1) for get and put",
+    "spaceComplexity": "O(capacity)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-030",
+    "title": "Lowest Common Ancestor of Binary Tree",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "description": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
+    "tags": ["tree", "lca", "recursion"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "gfg": "https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Recursively search in left and right subtrees",
+      "If both found in different subtrees, current is LCA",
+      "If one is ancestor of other, that node is LCA"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(h)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-031",
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard",
+    "category": "Trees",
+    "description": "Design an algorithm to serialize and deserialize a binary tree.",
+    "tags": ["tree", "serialization", "design"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+      "gfg": "https://www.geeksforgeeks.org/serialize-deserialize-binary-tree/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use preorder traversal for serialization",
+      "Use null markers for empty nodes",
+      "Reconstruct using same traversal order"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-032",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "category": "Graphs",
+    "description": "Count the number of islands in a 2D grid (1 represents land, 0 represents water).",
+    "tags": ["graph", "dfs", "matrix"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/number-of-islands/",
+      "gfg": "https://www.geeksforgeeks.org/find-number-of-islands/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use DFS or BFS to explore each island",
+      "Mark visited cells to avoid counting twice",
+      "Count number of DFS/BFS calls needed"
+    ],
+    "timeComplexity": "O(m*n)",
+    "spaceComplexity": "O(m*n)",
+    "companies": ["Zoho", "Amazon", "Facebook"]
+  },
+  {
+    "id": "dsa-033",
+    "title": "Word Ladder",
+    "difficulty": "Hard",
+    "category": "Graphs",
+    "description": "Find the shortest transformation sequence from beginWord to endWord, changing one letter at a time.",
+    "tags": ["graph", "bfs", "string"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/word-ladder/",
+      "gfg": "https://www.geeksforgeeks.org/word-ladder-length-of-shortest-chain-to-reach-a-target-word/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Model as graph where words are nodes",
+      "BFS to find shortest path",
+      "Use word list to generate neighbors"
+    ],
+    "timeComplexity": "O(M^2 * N) where M is word length, N is word list size",
+    "spaceComplexity": "O(M * N)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-034",
+    "title": "House Robber",
+    "difficulty": "Easy",
+    "category": "Dynamic Programming",
+    "description": "You are a robber planning to rob houses along a street. Adjacent houses have security systems connected.",
+    "tags": ["dp", "optimization", "array"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/house-robber/",
+      "gfg": "https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "At each house, choose to rob or not rob",
+      "If rob current, can't rob previous",
+      "dp[i] = max(dp[i-1], dp[i-2] + nums[i])"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1) optimized",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-035",
+    "title": "Word Break Problem",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "description": "Given a string and a dictionary, determine if the string can be segmented into space-separated dictionary words.",
+    "tags": ["dp", "string", "dictionary"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/word-break/",
+      "gfg": "https://www.geeksforgeeks.org/word-break-problem-dp-32/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use DP array where dp[i] = can segment substring [0..i]",
+      "For each position, check all possible splits",
+      "Use hash set for O(1) dictionary lookup"
+    ],
+    "timeComplexity": "O(n^2 * m) where m is average word length",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-036",
+    "title": "GCD of Two Numbers",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Find the greatest common divisor (GCD) of two numbers using Euclidean algorithm.",
+    "tags": ["mathematics", "gcd", "euclidean"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/c-program-find-gcd-hcf-two-numbers/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use recursive formula: gcd(a,b) = gcd(b, a%b)",
+      "Base case: gcd(a,0) = a",
+      "Or use iterative approach"
+    ],
+    "timeComplexity": "O(log(min(a,b)))",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-037",
+    "title": "Prime Factorization",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Find all prime factors of a given number efficiently.",
+    "tags": ["mathematics", "prime", "factorization"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Divide by 2 until odd",
+      "Then try odd divisors from 3 to sqrt(n)",
+      "Remaining number > 1 is also a prime factor"
+    ],
+    "timeComplexity": "O(sqrt(n))",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-038",
+    "title": "Power Set (All Subsets)",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "description": "Generate all possible subsets of a given set.",
+    "tags": ["backtracking", "subset", "recursion"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/subsets/",
+      "gfg": "https://www.geeksforgeeks.org/power-set/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "For each element, choose to include or exclude",
+      "Use recursion or bit manipulation",
+      "Total subsets = 2^n"
+    ],
+    "timeComplexity": "O(2^n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-039",
+    "title": "Permutations of String",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "description": "Generate all permutations of a given string or array.",
+    "tags": ["backtracking", "permutation", "recursion"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/permutations/",
+      "gfg": "https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Fix first character, permute rest recursively",
+      "Or use backtracking with swap",
+      "Total permutations = n!"
+    ],
+    "timeComplexity": "O(n!)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-040",
+    "title": "Sudoku Solver",
+    "difficulty": "Hard",
+    "category": "Backtracking",
+    "description": "Solve a Sudoku puzzle using backtracking algorithm.",
+    "tags": ["backtracking", "sudoku", "matrix"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/sudoku-solver/",
+      "gfg": "https://www.geeksforgeeks.org/sudoku-backtracking-7/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Try numbers 1-9 for empty cells",
+      "Check if placement is valid (row, col, 3x3 box)",
+      "Backtrack if no valid number found"
+    ],
+    "timeComplexity": "O(9^(n*n))",
+    "spaceComplexity": "O(n*n)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-041",
+    "title": "Activity Selection Problem",
+    "difficulty": "Easy",
+    "category": "Greedy Algorithms",
+    "description": "Select maximum number of activities that don't overlap, given start and finish times.",
+    "tags": ["greedy", "interval", "sorting"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
+      "gfg": "https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Sort activities by finish time",
+      "Greedily select activity with earliest finish",
+      "Skip activities that overlap with selected"
+    ],
+    "timeComplexity": "O(n log n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-042",
+    "title": "Huffman Coding",
+    "difficulty": "Medium",
+    "category": "Greedy Algorithms",
+    "description": "Implement Huffman coding for data compression.",
+    "tags": ["greedy", "tree", "compression"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Build frequency table for characters",
+      "Use min heap to build Huffman tree",
+      "Left=0, Right=1 for encoding"
+    ],
+    "timeComplexity": "O(n log n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-043",
+    "title": "Fractional Knapsack",
+    "difficulty": "Medium",
+    "category": "Greedy Algorithms",
+    "description": "Maximize value in knapsack where items can be broken into fractions.",
+    "tags": ["greedy", "knapsack", "optimization"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/fractional-knapsack-problem/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Calculate value/weight ratio for each item",
+      "Sort by ratio in descending order",
+      "Greedily take items with highest ratio"
+    ],
+    "timeComplexity": "O(n log n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-044",
+    "title": "Job Sequencing Problem",
+    "difficulty": "Medium",
+    "category": "Greedy Algorithms",
+    "description": "Schedule jobs with deadlines and profits to maximize total profit.",
+    "tags": ["greedy", "scheduling", "sorting"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/job-sequencing-problem/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Sort jobs by profit in descending order",
+      "Schedule each job as late as possible",
+      "Use slots array to track free time slots"
+    ],
+    "timeComplexity": "O(n^2) or O(n log n) with union-find",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-045",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "category": "Arrays",
+    "description": "Calculate how much water can be trapped after raining, given elevation map.",
+    "tags": ["array", "two-pointer", "water"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/trapping-rain-water/",
+      "gfg": "https://www.geeksforgeeks.org/trapping-rain-water/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Water at position = min(max_left, max_right) - height",
+      "Use two pointers from both ends",
+      "Or precompute max heights from both sides"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1) with two pointers",
+    "companies": ["Zoho", "Amazon", "Google"]
+  },
+  {
+    "id": "dsa-046",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Return array where output[i] equals product of all elements except nums[i], without division.",
+    "tags": ["array", "prefix", "product"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/product-of-array-except-self/",
+      "gfg": "https://www.geeksforgeeks.org/a-product-array-puzzle/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use left and right product arrays",
+      "Or compute in single pass with running products",
+      "output[i] = left_product * right_product"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1) excluding output",
+    "companies": ["Zoho", "Amazon", "Facebook"]
+  },
+  {
+    "id": "dsa-047",
+    "title": "Minimum Window Substring",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "description": "Find minimum window in S which contains all characters of T.",
+    "tags": ["string", "sliding-window", "two-pointer"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/minimum-window-substring/",
+      "gfg": "https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use sliding window with two pointers",
+      "Expand window until all chars found",
+      "Contract window while maintaining all chars"
+    ],
+    "timeComplexity": "O(m+n)",
+    "spaceComplexity": "O(1) for fixed alphabet",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-048",
+    "title": "Rabin-Karp String Matching",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Implement Rabin-Karp algorithm for pattern matching using rolling hash.",
+    "tags": ["string", "hash", "pattern-matching"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/implement-strstr/",
+      "gfg": "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Compute hash for pattern and text window",
+      "Use rolling hash for efficiency",
+      "Verify match when hashes equal"
+    ],
+    "timeComplexity": "O(n+m) average",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Google", "Amazon"]
+  },
+  {
+    "id": "dsa-049",
+    "title": "Circular Linked List Detection",
+    "difficulty": "Medium",
+    "category": "Linked Lists",
+    "description": "Detect if a linked list is circular and find the start of the cycle.",
+    "tags": ["linked-list", "cycle", "two-pointer"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/linked-list-cycle-ii/",
+      "gfg": "https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use Floyd's cycle detection",
+      "Find meeting point with slow/fast pointers",
+      "Move one pointer to head, both move at same pace to find start"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho", "Amazon", "Microsoft"]
+  },
+  {
+    "id": "dsa-050",
+    "title": "Clone Graph with Random Pointer",
+    "difficulty": "Hard",
+    "category": "Graphs",
+    "description": "Deep clone a graph where nodes have random pointers in addition to neighbor pointers.",
+    "tags": ["graph", "clone", "hash-table"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/clone-graph/",
+      "gfg": "https://www.geeksforgeeks.org/clone-an-undirected-graph/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use hash map to store original to clone mapping",
+      "First pass: create all nodes",
+      "Second pass: connect neighbors and random pointers"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(n)",
+    "companies": ["Zoho", "Amazon", "Google"]
+  }
+]

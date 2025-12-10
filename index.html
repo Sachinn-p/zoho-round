@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoho Practice Platform - C Programming, DSA & LLD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>🚀 Zoho Practice Platform</h1>
+                <div class="header-controls">
+                    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Master Your Interview Preparation</h2>
+            <p>Comprehensive practice platform for C Programming, Data Structures & Algorithms, and Low Level Design</p>
+        </section>
+
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="globalSearch" placeholder="Search questions across all categories..." class="search-input">
+                <button class="search-btn" id="searchBtn">🔍 Search</button>
+            </div>
+            <div class="filter-container">
+                <select id="difficultyFilter" class="filter-select">
+                    <option value="">All Difficulties</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+                <select id="categoryFilter" class="filter-select">
+                    <option value="">All Categories</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="category-card" data-category="c-programming">
+                <div class="card-icon">💻</div>
+                <h3>C Programming</h3>
+                <p>Master core C language concepts and fundamental programming skills</p>
+                <div class="progress-info">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="c-programming"></div>
+                    </div>
+                    <span class="progress-text" id="cProgress">0/22 Completed</span>
+                </div>
+                <div class="card-stats">
+                    <span class="stat">📚 22 Questions</span>
+                    <span class="stat">⏱️ Beginner to Advanced</span>
+                </div>
+                <a href="pages/c-programming.html" class="card-btn">Start Practice</a>
+            </div>
+
+            <div class="category-card" data-category="zoho-dsa">
+                <div class="card-icon">🧮</div>
+                <h3>Zoho DSA</h3>
+                <p>Data Structures & Algorithms specifically curated for Zoho preparation</p>
+                <div class="progress-info">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="zoho-dsa"></div>
+                    </div>
+                    <span class="progress-text" id="dsaProgress">0/50 Completed</span>
+                </div>
+                <div class="card-stats">
+                    <span class="stat">📚 50 Questions</span>
+                    <span class="stat">⏱️ Easy to Hard</span>
+                </div>
+                <a href="pages/zoho-dsa.html" class="card-btn">Start Practice</a>
+            </div>
+
+            <div class="category-card" data-category="lld">
+                <div class="card-icon">🏗️</div>
+                <h3>Low Level Design (LLD)</h3>
+                <p>Object-oriented design patterns and system design problems</p>
+                <div class="progress-info">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="lld"></div>
+                    </div>
+                    <span class="progress-text" id="lldProgress">0/18 Completed</span>
+                </div>
+                <div class="card-stats">
+                    <span class="stat">📚 18 Questions</span>
+                    <span class="stat">⏱️ Medium to Hard</span>
+                </div>
+                <a href="pages/lld.html" class="card-btn">Start Practice</a>
+            </div>
+        </section>
+
+        <section class="search-results" id="searchResults" style="display: none;">
+            <h2>Search Results</h2>
+            <div id="searchResultsContainer"></div>
+        </section>
+
+        <section class="features">
+            <h2>Platform Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✅</div>
+                    <h4>Progress Tracking</h4>
+                    <p>Track your progress across all categories</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔖</div>
+                    <h4>Bookmarking</h4>
+                    <p>Save important questions for later review</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔍</div>
+                    <h4>Smart Search</h4>
+                    <p>Search by title, tags, or company</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <h4>Difficulty Filters</h4>
+                    <p>Filter by Easy, Medium, or Hard</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌓</div>
+                    <h4>Dark Mode</h4>
+                    <p>Easy on the eyes, day or night</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💾</div>
+                    <h4>Local Storage</h4>
+                    <p>Your progress is saved automatically</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zoho Practice Platform. Built for interview preparation.</p>
+        </div>
+    </footer>
+
+    <script src="js/progress.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
