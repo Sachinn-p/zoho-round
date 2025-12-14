@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoho-Docs Questions - Zoho Practice Platform</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><a href="../index.html" class="home-link">🚀 Zoho Practice Platform</a></h1>
+                <div class="header-controls">
+                    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h2>📄 Zoho-Docs Questions</h2>
+            <p>Comprehensive collection of 106 practice questions from Zoho 2nd round</p>
+        </div>
+
+        <div class="controls-bar">
+            <div class="search-container">
+                <input type="text" id="questionSearch" placeholder="Search questions..." class="search-input">
+            </div>
+            <div class="filter-container">
+                <select id="difficultyFilter" class="filter-select">
+                    <option value="">All Difficulties</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+                <select id="categoryFilter" class="filter-select">
+                    <option value="">All Topics</option>
+                    <option value="Arrays">Arrays</option>
+                    <option value="Strings">Strings</option>
+                    <option value="Matrix">Matrix</option>
+                    <option value="Mathematical Problems">Mathematical Problems</option>
+                    <option value="Patterns">Patterns</option>
+                    <option value="Backtracking">Backtracking</option>
+                    <option value="Dynamic Programming">Dynamic Programming</option>
+                    <option value="Greedy Algorithms">Greedy Algorithms</option>
+                    <option value="Trees">Trees</option>
+                    <option value="Design">Design</option>
+                </select>
+                <button id="bookmarkedFilter" class="filter-btn">🔖 Bookmarked</button>
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <span class="stat-item">Total: <strong id="totalCount">0</strong></span>
+            <span class="stat-item">Solved: <strong id="solvedCount">0</strong></span>
+            <span class="stat-item">Attempted: <strong id="attemptedCount">0</strong></span>
+        </div>
+
+        <div id="questionsContainer" class="questions-list">
+            <!-- Questions will be loaded here dynamically -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zoho Practice Platform. Built for interview preparation.</p>
+        </div>
+    </footer>
+
+    <!-- Question Detail Modal -->
+    <div id="questionModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Question details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/progress.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        const CATEGORY = 'zoho-docs';
+        const DATA_FILE = '../data/zoho-docs.json';
+        
+        // Load and display questions
+        loadQuestions(DATA_FILE, CATEGORY);
+    </script>
+</body>
+</html>
