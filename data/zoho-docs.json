@@ -1,0 +1,2871 @@
+[
+  {
+    "id": "zoho-docs-001",
+    "title": "Replace every element with greatest on right",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given an array of integers, replace every element with the next greatest element (greatest element on the right side) in the array. Since there is no element next to the last element, replace it with -1. For example, if the array is {16, 17, 4, 3, 5, 2}, then it should be modified to {17, 5, 5, 5, 2, -1}.",
+    "tags": [
+      "array",
+      "traversal"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-002",
+    "title": "Boolean Matrix Modification",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "Given a Boolean matrix mat[M][N] of size M X N, modify it such that if a matrix cell mat[i][j] is 1 then make its adjacent cells as 0.",
+    "tags": [
+      "matrix",
+      "modification"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-003",
+    "title": "Equilibrium Index of Array",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes. Example: Input: A[] = {-7, 1, 5, 2, -4, 3, 0}, Output: 3",
+    "tags": [
+      "array",
+      "prefix-sum"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-004",
+    "title": "MS-Paint Flood Fill Algorithm",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "In MS-Paint, when we take the brush to a pixel and click, the color of the region of that pixel is replaced with a new selected color. Given a 2D screen, location of a pixel in the screen and a color, replace color of the given pixel and all adjacent same colored pixels with the given color.",
+    "tags": [
+      "matrix",
+      "dfs",
+      "bfs",
+      "flood-fill"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-005",
+    "title": "Print Matrix in Zig-Zag Fashion",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "Given a matrix of 2D array of n rows and m columns. Print this matrix in ZIG-ZAG fashion. Example: Input: 1 2 3, 4 5 6, 7 8 9, Output: 1 2 4 7 5 3 6 8 9",
+    "tags": [
+      "matrix",
+      "traversal"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-006",
+    "title": "Remove Duplicates with Character Replacement",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "description": "Remove the duplicates in the String. If a character is duplicated, replace it with the next character. Example: Input: Java1234, Output: Javb1234 (Remove the second 'a' as it is duplicated). Input: Python1223, Output: Python1234",
+    "tags": [
+      "string",
+      "character-replacement",
+      "ascii"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-007",
+    "title": "Version Comparison",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Print whether the version is upgraded, downgraded or not changed according to the input given. Example: Input: Version1 4.8.2 Version2 4.8.4 Output: upgraded",
+    "tags": [
+      "string",
+      "comparison",
+      "version"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-008",
+    "title": "Print All Subsets with Given Sum",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Print all possible subsets of the given array whose sum equal to given N. Example: Input: {1, 2, 3, 4, 5} N=6 Output: {1, 2, 3}, {1, 5}, {2, 4}",
+    "tags": [
+      "array",
+      "backtracking",
+      "subset-sum"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-009",
+    "title": "Reverse Words from First Occurrence",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the words in the given String1 from the first occurrence of String2 in String1 by maintaining white Spaces. Example: String1 = 'This is a test String only' String2 = 'st' Output: 'This is a only String test'",
+    "tags": [
+      "string",
+      "reverse",
+      "substring"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-010",
+    "title": "Maximum Chocolates Problem",
+    "difficulty": "Hard",
+    "category": "Mathematical Problems",
+    "description": "Calculate Maximum number of chocolates can eat and Number of wrappers left in hand. Given Money, Price, wrappers, choco, Max visit. Example: Money:40 Price:1 wrappers:3 choco:1 Max visit:1 Output: total chocolate can eat: 53 wrappers left in hand:14",
+    "tags": [
+      "mathematics",
+      "simulation"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-011",
+    "title": "Alternate Character Extraction",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Given a string, extract alternate characters. Sample Input: 2, Hacker, Rank. Sample Output: Hce akr, Rn ak",
+    "tags": [
+      "string",
+      "pattern"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-012",
+    "title": "Print Word with Odd Letters",
+    "difficulty": "Easy",
+    "category": "Pattern",
+    "description": "Print the word with odd letters in diamond pattern. Sample Input: PROGRAM. Sample Output: P pattern with spacing",
+    "tags": [
+      "pattern",
+      "string"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-013",
+    "title": "Alternate Sorting",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given an array, sort it in alternating order of largest and smallest. Input: {1, 2, 3, 4, 5, 6, 7}, Output: {7, 1, 6, 2, 5, 3, 4}",
+    "tags": [
+      "array",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-014",
+    "title": "Bike Trip Problem",
+    "difficulty": "Medium",
+    "category": "Greedy Algorithms",
+    "description": "Given an array of values persons[], each represents the weight of the persons. There will be infinite bikes available. Given a value K which represents the maximum weight that a bike accommodates. Find out the least number of bike trips.",
+    "tags": [
+      "greedy",
+      "optimization"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-015",
+    "title": "Grid Movement Tracking",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Assume there exists infinite grid, you're given initial position x, y. Inputs will be movements either L or R or U or D. After n inputs, you need to give the current position. Input: 4 5 (initial), 9 movements: U L R R D D U L R, Output: 5 5",
+    "tags": [
+      "array",
+      "simulation"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-016",
+    "title": "Matrix Path Finding",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "Given a matrix NxN, you are initially in the 0,0 position. The matrix is filled with ones and zeros. Value '1' represents the path is available, while '0' represents the wall. Find if you can reach (N-1)x(N-1) index. You can move only along right and down directions.",
+    "tags": [
+      "matrix",
+      "dfs",
+      "path"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-017",
+    "title": "Maximum Digit Value",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Given an array of integers, compute the maximum value for each integer by either summing all digits or multiplying all digits. Input: 5, 120 24 71 10 59. Output: 3 8 8 1 45",
+    "tags": [
+      "mathematics",
+      "digits"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-018",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "-1 represents ocean and 1 represents land, find the number of islands in the given matrix. Input: n*n matrix with 1s and -1s. Output: Count of islands",
+    "tags": [
+      "matrix",
+      "dfs",
+      "islands"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-019",
+    "title": "Print Subsets with Given Sum",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Print all the possible subsets of array which adds up to give a sum. Input: array{2, 3, 5, 8, 10}, sum=10. Output: {2, 3, 5}, {2, 8}, {10}",
+    "tags": [
+      "array",
+      "backtracking"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-020",
+    "title": "Circular Queue Safe Position (Josephus Problem)",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "There is a circular queue of processes. Every time there will be certain no of process skipped and a particular start position. Find the safe position. Input: Number of process:5, Start:3, Skip:2nd. Output: 1 will be the safest position",
+    "tags": [
+      "mathematics",
+      "josephus"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-021",
+    "title": "Snake Pattern Without Array",
+    "difficulty": "Medium",
+    "category": "Pattern",
+    "description": "Given N, print the snake pattern. Condition: must not use arrays (1D or 2D). Example: N=4 prints 1 2 3 4, 8 7 6 5, 9 10 11 12, 16 15 14 13",
+    "tags": [
+      "pattern",
+      "logic"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-022",
+    "title": "Latin Matrix Without Strings",
+    "difficulty": "Medium",
+    "category": "Pattern",
+    "description": "Given N, print the Latin Matrix. Condition: must not use strings, arrays, inbuilt functions. Example: N=3 prints A B C, B C A, C A B",
+    "tags": [
+      "pattern",
+      "matrix"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-023",
+    "title": "Minimum Count of 0-1 Numbers for Sum",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Given a number N, find the minimum count of numbers in which N can be represented as a sum where each number's digits are only 0s and 1s. Example: N=33, Output: 3 (11+11+11)",
+    "tags": [
+      "dp",
+      "optimization"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-024",
+    "title": "String Permutations (Backtracking)",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "description": "Finding all permutations of a string using backtracking approach.",
+    "tags": [
+      "backtracking",
+      "permutation"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-025",
+    "title": "Rearrange Array Alternating Max-Min",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given an array of integers, rearrange the array in the form: 1st_largest, 1st_smallest, 2nd_largest, 2nd_smallest, 3rd_largest, etc.",
+    "tags": [
+      "array",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-026",
+    "title": "Sort by Number of Factors",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Sort the given elements in descending order based on the number of factors of each element.",
+    "tags": [
+      "mathematics",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-027",
+    "title": "Palindrome Check Without Arrays",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Find whether the given number is palindrome or not. Don't use arrays or strings.",
+    "tags": [
+      "mathematics",
+      "palindrome"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-028",
+    "title": "Reverse String Keeping Special Characters",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the given string keeping the position of special characters intact.",
+    "tags": [
+      "string",
+      "reverse"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-029",
+    "title": "Shortest Path Using Right and Down",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "Find the shortest path from one element to another element in a matrix using right and down moves alone.",
+    "tags": [
+      "matrix",
+      "bfs",
+      "path"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-030",
+    "title": "Pattern Printing",
+    "difficulty": "Easy",
+    "category": "Pattern",
+    "description": "Print various patterns as specified in the problem.",
+    "tags": [
+      "pattern"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-031",
+    "title": "Pangram Checking",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Check whether all English alphabets are present in the given sentence or not. Input: 'abc defGhi JklmnOP QRStuv wxyz', Output: True",
+    "tags": [
+      "string",
+      "validation"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-032",
+    "title": "Password Strength",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Find the strength of the given password string based on conditions. Four rules based on type and number of characters. Output: Weak/Medium/Good/Strong",
+    "tags": [
+      "string",
+      "validation"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-033",
+    "title": "First Occurrences",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Given two strings, find the first occurrence of all characters of second string in the first string and print characters between least and highest index. Input: ZOHOCORPORATION PORT, Output: OHOCORPORAT",
+    "tags": [
+      "string",
+      "index"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-034",
+    "title": "Matrix Diagonal Sum",
+    "difficulty": "Easy",
+    "category": "Matrix",
+    "description": "Given a matrix, print the largest of the sums of the two triangles split by diagonal from top right to bottom left. Input: 3x3 matrix, Output: 38",
+    "tags": [
+      "matrix",
+      "sum"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-035",
+    "title": "Matrix Addition",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "Given n integer arrays of different size, find the addition of numbers represented by the arrays. Input: arrays representing digits, Output: sum as number",
+    "tags": [
+      "matrix",
+      "addition"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-036",
+    "title": "Remove Characters from String",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Remove all duplicate characters. Input: aaabbcc, Output: abc",
+    "tags": [
+      "string",
+      "filter"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-037",
+    "title": "Evaluate and Sort Expressions",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Evaluate the expression and sort and print the output. Input: expressions like 2*3, 2^2^2, 35, 3*1. Output: sorted by evaluated value",
+    "tags": [
+      "mathematics",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-038",
+    "title": "Build Two Towers with Blocks",
+    "difficulty": "Hard",
+    "category": "Arrays",
+    "description": "Given 6 blocks of different heights, make 2 towers using 3 blocks each in desired heights. Input: 1 2 5 4 3 6, heights: 6 15. Output: 1 2 3 & 4 5 6",
+    "tags": [
+      "array",
+      "optimization"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-039",
+    "title": "Chess Knight Configuration Validation",
+    "difficulty": "Hard",
+    "category": "Matrix",
+    "description": "Given a 5X5 chess board as input, 9 knights are placed. Print whether the configuration is valid or invalid.",
+    "tags": [
+      "matrix",
+      "validation"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-040",
+    "title": "Decode Number to Letters",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Given a number, print all the codes that can be formed. {a=1, ..., z=26}. Input: 1123, Output: aabc, kbc, aaw, kw",
+    "tags": [
+      "dp",
+      "decoding"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-041",
+    "title": "Palindrome with Special Characters",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Given a String with or without special characters, find if it is Palindrome. No splitting of array or additional space for storing. Example: 'RACE CAR', 'I DID, DID I ?'",
+    "tags": [
+      "string",
+      "palindrome"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-042",
+    "title": "Array Modification with Doubling",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given an array, if next valid number is same as current, double its value and replace next with 0. Then shift all 0s to end. Input: {2, 2, 0, 4, 0, 8}, Output: 4 4 8 0 0 0",
+    "tags": [
+      "array",
+      "modification"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-043",
+    "title": "Twisted Prime Number",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "A number is twisted prime if it is prime and its reverse is also prime. Input: 97, Output: Twisted Prime Number",
+    "tags": [
+      "mathematics",
+      "prime"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-044",
+    "title": "Pair with Given Sum",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given an array A[] and a number x, check for pair in A[] with sum as x. Input: {1, 2, 4, 3, 5, 6}, SUM: 5. Output: 2 pairs (1,4) & (2,3)",
+    "tags": [
+      "array",
+      "two-pointer"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-045",
+    "title": "Largest Sum Contiguous Subarray (Kadane's Algorithm)",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the contiguous subarray with the largest sum using Kadane's algorithm.",
+    "tags": [
+      "array",
+      "kadane"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-046",
+    "title": "Diamond Pattern",
+    "difficulty": "Easy",
+    "category": "Pattern",
+    "description": "Print diamond pattern for given input size. Example: size 3 prints star diamond",
+    "tags": [
+      "pattern"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-047",
+    "title": "Wildcard Pattern Matching",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "description": "Given a text and wildcard pattern, implement pattern matching. '?' matches any single character, '*' matches any sequence. Example: Text='baaabab', Pattern='*****ba*****ab', Output: true",
+    "tags": [
+      "string",
+      "pattern-matching"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-048",
+    "title": "Word Break Problem",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Given an input string and dictionary of words, find if input can be segmented into space-separated dictionary words. Input: 'ilike', Dictionary: {i, like, sam, sung, samsung}, Output: Yes",
+    "tags": [
+      "dp",
+      "string"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-049",
+    "title": "Pattern Printing Triangle",
+    "difficulty": "Easy",
+    "category": "Pattern",
+    "description": "Print the pattern: 1, 3 2, 6 5 4, 10 9 8 7, 10 9 8 7, 6 5 4, 3 2, 1",
+    "tags": [
+      "pattern"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-050",
+    "title": "Array Modification with Doubling and Zero Shift",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given an array, if number is repeated add and put next to 0. If 0 print at last. Input: {0, 2, 2, 2, 0, 6, 6, 0, 8}, Output: 4 2 12 8 0 0 0 0 0",
+    "tags": [
+      "array",
+      "modification"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-051",
+    "title": "Remove Characters Present in Second String",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Given two strings s1 and s2, remove all characters from s1 which are present in s2. Input: s1='expErIence', s2='En', Output: s1='exprIece'",
+    "tags": [
+      "string",
+      "filter"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-052",
+    "title": "Next Greater Element for Each Element",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the next greater element for each element in given array. Input: {6, 3, 9, 10, 8, 2, 1, 15, 7}, Output: {7, 5, 10, 15, 9, 3, 2, _, 8}",
+    "tags": [
+      "array",
+      "stack"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-053",
+    "title": "Distinct Permutations with Duplicates",
+    "difficulty": "Hard",
+    "category": "Backtracking",
+    "description": "Print all distinct permutations of a given string with duplicate characters.",
+    "tags": [
+      "backtracking",
+      "permutation"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-054",
+    "title": "Next Smallest Palindrome",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Given a number, find the next smallest palindrome.",
+    "tags": [
+      "mathematics",
+      "palindrome"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-055",
+    "title": "Top Three Repeated Numbers",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given an array with repeated numbers, find the top three repeated numbers. Input: {3, 4, 2, 3, 16, 3, 15, 16, 15, 15, 16, 2, 3}, Output: 3, 16, 15",
+    "tags": [
+      "array",
+      "frequency"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-056",
+    "title": "Rectangle Sum in Matrix",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "Given 2D matrix and indices, print rectangle and find sum of elements. Input: matrix and (2,0) to (3,4), Output: Rectangle and sum 54",
+    "tags": [
+      "matrix",
+      "sum"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-057",
+    "title": "Operations Using Only Addition Operator",
+    "difficulty": "Hard",
+    "category": "Mathematical Problems",
+    "description": "Find subtraction, multiplication, division of two integers using only + operator. Input: 6 and 4, Output: addition=10, subtraction=2, multiplication=24, division=1",
+    "tags": [
+      "mathematics",
+      "operators"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-058",
+    "title": "Remove Palindrome Words from Sentence",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Given a sentence, remove palindrome words and print remaining. Input: 'He did a good deed', Output: 'He good'",
+    "tags": [
+      "string",
+      "palindrome"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-059",
+    "title": "Days Between Two Dates",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Given two dates, find total number of days between them. Input: dt1={10,2,2014} dt2={10,3,2015}, Output: 393",
+    "tags": [
+      "mathematics",
+      "date"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-060",
+    "title": "Count Digit Decodings",
+    "difficulty": "Medium",
+    "category": "Dynamic Programming",
+    "description": "Let 1 represent 'A', 2 represent 'B', etc. Given digit sequence, count possible decodings. Input: '121', Output: 3 (ABA, AU, LA)",
+    "tags": [
+      "dp",
+      "decoding"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-061",
+    "title": "Phone Digits to Words",
+    "difficulty": "Medium",
+    "category": "Backtracking",
+    "description": "Print all possible words from phone digits.",
+    "tags": [
+      "backtracking",
+      "string"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-062",
+    "title": "Longest Sequence Between Same Characters",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Print longest sequence between same character. Input: abcccccbba, Output: 8 (from a to a)",
+    "tags": [
+      "string",
+      "sequence"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-063",
+    "title": "Sort Odd Ascending Even Descending",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Sort the array with odd numbers in ascending and even in descending. Input: 5 8 11 6 2 1 7, Output: 1 5 7 11 8 6 2",
+    "tags": [
+      "array",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-064",
+    "title": "Find Anagram in Array",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Array of strings given, find anagrams of a given word. Input: catch got tiger mat eat Pat tap tea, Word: ate, Output: eat, tea",
+    "tags": [
+      "string",
+      "anagram"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-065",
+    "title": "Number with Equal Sum on Both Sides",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Array of numbers given, find a number which has same sum on either side. Input: 1 2 3 7 6, Output: 7 (has 1+2+3=6 on left, 6 on right)",
+    "tags": [
+      "array",
+      "sum"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-066",
+    "title": "Print N Prime Numbers",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Print first n prime numbers.",
+    "tags": [
+      "mathematics",
+      "prime"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-067",
+    "title": "Sort by Minimum Prime Factor",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Sort the array based on the minimum prime factor they have.",
+    "tags": [
+      "mathematics",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-068",
+    "title": "Add Digit to All Digits",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Add a digit to all digits of a number. Example: digit=4, number=2875, output=612119",
+    "tags": [
+      "mathematics",
+      "digits"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-069",
+    "title": "Form Largest Possible Number",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Form the largest possible number using the array of numbers.",
+    "tags": [
+      "array",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-070",
+    "title": "Lexicographic Sorting",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Sort strings in lexicographic order.",
+    "tags": [
+      "string",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-071",
+    "title": "Remove Digit Occurrences Iteratively",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given a set of numbers and a digit in each iteration, if digit exists in any number, remove its occurrences and ask for next digit till list becomes empty.",
+    "tags": [
+      "array",
+      "digits"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-072",
+    "title": "Check if Number A is Present in Number B",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Check if a number 'a' is present in another number 'b'.",
+    "tags": [
+      "mathematics",
+      "digits"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-073",
+    "title": "Find Extra Element and Index",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given two arrays, find the extra element and its index. Input: [10,20,30,12,5] and [10,5,30,20], Output: 12 is extra at index 4",
+    "tags": [
+      "array",
+      "comparison"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-074",
+    "title": "Least Prime for Divisibility",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Find the least prime number that can be added with first array element that makes them divisible by second array elements. Input: [20,7] [11,5], Output: [1,3]",
+    "tags": [
+      "mathematics",
+      "prime"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-075",
+    "title": "Sort by Frequency of Occurrence",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Sort array elements in descending order according to their frequency. Input: [2 2 3 4 5 12 2 3 3 3 12], Output: 3 3 3 3 2 2 2 12 12 4 5",
+    "tags": [
+      "array",
+      "frequency",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-076",
+    "title": "Substring with Wildcard Match",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Print true if second string is substring of first. * symbol can replace n characters. Input: Spoon Sp*n, Output: TRUE",
+    "tags": [
+      "string",
+      "pattern-matching"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-077",
+    "title": "Second Frequently Occurring Number",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Print second frequently occurring number in given series. Input: 1 1 2 3 1 2 4, Output: 2",
+    "tags": [
+      "array",
+      "frequency"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-078",
+    "title": "Filter Fibonacci Numbers",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Print only numbers which are present in Fibonacci series. Input: 2 10 4 8, Output: 2 8",
+    "tags": [
+      "mathematics",
+      "fibonacci"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-079",
+    "title": "Binary Pattern Printing",
+    "difficulty": "Medium",
+    "category": "Pattern",
+    "description": "Print pattern with binary digits. Input: 3, Output: 000, 001, 010, 011, 100, 101, 110, 111",
+    "tags": [
+      "pattern",
+      "binary"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-080",
+    "title": "Matrix Pathfinding with Blocks",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "NxN matrix provided. 0->block, 1->Not a block. Go from (0,0) to (N-1,N-1). One valid solution needed.",
+    "tags": [
+      "matrix",
+      "dfs",
+      "path"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-081",
+    "title": "Insert 0 After K Consecutive 1s",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Insert 0 after consecutive K times of 1 is found. Input: 12 bits: 1 0 1 1 0 1 1 0 1 1 1 1, K=2, Output: 1 0 1 1 0 0 1 1 0 0 1 1 0 1 1 0",
+    "tags": [
+      "array",
+      "modification"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-082",
+    "title": "Find Maximum of Three Numbers",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Find the maximum of three numbers.",
+    "tags": [
+      "mathematics"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-083",
+    "title": "Count Odd and Even Digits",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Print the total number of odd and even digits in the given number. Input: 1234567, Output: ODD 4 EVEN 3",
+    "tags": [
+      "mathematics",
+      "digits"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-084",
+    "title": "Second Maximum in Array",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Find the second maximum among the given numbers. Input: 2 5 1 6 2 6 7 10, Output: 7",
+    "tags": [
+      "array",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-085",
+    "title": "Pascal's Triangle Pattern",
+    "difficulty": "Easy",
+    "category": "Pattern",
+    "description": "Print Pascal's triangle pattern for given input. Input: 5, Output: Pascal's triangle with 5 rows",
+    "tags": [
+      "pattern",
+      "mathematics"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-086",
+    "title": "Unique Matrix Rows",
+    "difficulty": "Medium",
+    "category": "Matrix",
+    "description": "Given a 2D array of 0s and 1s, print matrix without duplication. Input: 4x3 matrix, Output: unique rows only",
+    "tags": [
+      "matrix",
+      "hashing"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-087",
+    "title": "Longest Continuous Range",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given array of positive numbers, print numbers with longest continuous range. Input: 1 3 10 7 9 2 4 6, Output: 1 2 3 4",
+    "tags": [
+      "array",
+      "range"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-088",
+    "title": "Union of Two Arrays",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given two arrays, find their union. Input: [1,2,3,4,5,3] and [1,2,7,5], Output: 1 2 3 4 5 7",
+    "tags": [
+      "array",
+      "set"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-089",
+    "title": "Remove Duplicates from Array",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given an array, print numbers without duplication. Input: 1 1 2 4, Output: 1 2 4",
+    "tags": [
+      "array",
+      "deduplication"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-090",
+    "title": "Maximum K Digit Number from Array",
+    "difficulty": "Hard",
+    "category": "Arrays",
+    "description": "Given array of numbers and k, print maximum possible k digit number. Input: [1,4,973,97] k=3, Output: 974",
+    "tags": [
+      "array",
+      "greedy"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-091",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "category": "Arrays",
+    "description": "Given array and window size k, print maximum inside window for each step. Input: [1,3,5,2,1,8,6,9] k=3, Output: 5 5 5 8 8 9",
+    "tags": [
+      "array",
+      "sliding-window"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-092",
+    "title": "Reverse Only Vowels in String",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Given a string, reverse only vowels. Input: abcdef, Output: ebcdaf",
+    "tags": [
+      "string",
+      "reverse"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-093",
+    "title": "Word Search in Matrix",
+    "difficulty": "Hard",
+    "category": "Matrix",
+    "description": "Write a program to check if given words are present in matrix. Words can be left to right, top to bottom, and diagonals.",
+    "tags": [
+      "matrix",
+      "backtracking"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-094",
+    "title": "Form Lines with Words and Constraints",
+    "difficulty": "Hard",
+    "category": "Strings",
+    "description": "Form lines using given words following rules about max chars, favorite character. Input: Max=10, Fav='o', Words: Zoho Eating Watching Pogo Loving Mango",
+    "tags": [
+      "string",
+      "optimization"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-095",
+    "title": "Add Two Large Numbers as Arrays",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given 2 huge numbers as separate digits in arrays, calculate sum. Input: two digit arrays, Output: sum as array",
+    "tags": [
+      "array",
+      "mathematics"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-096",
+    "title": "Two Sum in Sorted Array",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given sorted array, check if two numbers sum to given value. Input: Array=[1,3,4,8,10] N=7, Output: true",
+    "tags": [
+      "array",
+      "two-pointer"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-097",
+    "title": "Computing Sine Value",
+    "difficulty": "Medium",
+    "category": "Mathematical Problems",
+    "description": "Computing value of sin(x) using series expansion. Input: x=30 n=10, Output: 0.5",
+    "tags": [
+      "mathematics",
+      "series"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-098",
+    "title": "Multiplication Using Addition",
+    "difficulty": "Easy",
+    "category": "Mathematical Problems",
+    "description": "Write function to find multiplication of 2 numbers using + operator with minimum iterations. Input: 3, 4, Output: 12",
+    "tags": [
+      "mathematics"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-099",
+    "title": "Maximum Sum Contiguous Subarray",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given array, find maximum sum of contiguous subarray. Input: {-2,-3,4,-1,-2,1,5,-3}, Output: 7 elements [4,-1,-2,1,5]",
+    "tags": [
+      "array",
+      "kadane"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-100",
+    "title": "All Combinations for Given Sum",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given unsorted array, find all combinations of elements for given sum maintaining order. Input: 8 3 4 7 9 N=7, Output: {3,4} {7}",
+    "tags": [
+      "array",
+      "backtracking"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-101",
+    "title": "Print String from Middle",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Given an odd length word, print from middle. Input: PROGRAM, Output: G, GR, GRA, GRAM, GRAMP, GRAMPR, GRAMPRO",
+    "tags": [
+      "string",
+      "pattern"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-102",
+    "title": "Least Recently Used (LRU) Cache",
+    "difficulty": "Hard",
+    "category": "Design",
+    "description": "Implement LRU concept. Given a key, if existed mark as recently used, else store value and mark. Capacity is 10 key-value pairs. Delete LRU when full.",
+    "tags": [
+      "cache",
+      "design",
+      "lru"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-103",
+    "title": "Family Tree Level Count",
+    "difficulty": "Medium",
+    "category": "Trees",
+    "description": "Given pairs of names (child, father) and person name with level, output number of children in that level. Input: pairs and 'Syam 2', Output: 3",
+    "tags": [
+      "tree",
+      "graph"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-104",
+    "title": "Count Occurrences of Each Number",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Given array of positive integers, output number of occurrences. Input: {2,3,2,6,1,6,2}, Output: 1-1, 2-3, 3-1, 6-2",
+    "tags": [
+      "array",
+      "frequency"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-105",
+    "title": "Minimum of Greater Elements",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Given array, find minimum of all greater numbers for each element. Input: {2,3,7,-1,8,5,11}, Output: {2->3, 3->5, 7->8, -1->2, 8->11, 5->7, 11->}",
+    "tags": [
+      "array",
+      "sorting"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  },
+  {
+    "id": "zoho-docs-106",
+    "title": "Reverse String Words Recursively",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Given string, change order of words using RECURSION. Input: 'one two three', Output: 'three two one'",
+    "tags": [
+      "string",
+      "recursion"
+    ],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Think about the optimal approach",
+      "Consider edge cases",
+      "Optimize for time and space complexity"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": [
+      "Zoho"
+    ]
+  }
+]
