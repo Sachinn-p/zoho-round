@@ -174,7 +174,8 @@ class QuestionManager {
         const categoryTotals = {
             'c-programming': 22,
             'zoho-dsa': 50,
-            'lld': 18
+            'lld': 18,
+            'zoho-docs': 10
         };
 
         const total = categoryTotals[this.category] || this.questions.length;
