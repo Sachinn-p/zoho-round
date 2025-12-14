@@ -111,17 +111,19 @@ async function performGlobalSearch(searchTerm, difficulty = '', category = '') {
 
     try {
         // Load all question files
-        const [cQuestions, dsaQuestions, lldQuestions] = await Promise.all([
+        const [cQuestions, dsaQuestions, lldQuestions, docsQuestions] = await Promise.all([
             fetch('data/c-questions.json').then(r => r.json()),
             fetch('data/dsa-questions.json').then(r => r.json()),
-            fetch('data/lld-questions.json').then(r => r.json())
+            fetch('data/lld-questions.json').then(r => r.json()),
+            fetch('data/zoho-docs.json').then(r => r.json())
         ]);
 
         // Combine and tag with source
         const allQuestions = [
             ...cQuestions.map(q => ({ ...q, source: 'c-programming', sourceName: 'C Programming' })),
             ...dsaQuestions.map(q => ({ ...q, source: 'zoho-dsa', sourceName: 'Zoho DSA' })),
-            ...lldQuestions.map(q => ({ ...q, source: 'lld', sourceName: 'Low Level Design' }))
+            ...lldQuestions.map(q => ({ ...q, source: 'lld', sourceName: 'Low Level Design' })),
+            ...docsQuestions.map(q => ({ ...q, source: 'zoho-docs', sourceName: 'Zoho-Docs Questions' }))
         ];
 
         // Filter questions
@@ -184,7 +186,7 @@ if (document.getElementById('globalSearch')) {
         'Dynamic Programming', 'Mathematical Problems', 'Greedy Algorithms', 'Backtracking',
         'Arrays & Strings', 'Functions', 'Pointers', 'Structures & Unions', 'File Handling',
         'Advanced Topics', 'Basic Concepts', 'Control Structures',
-        'System Design', 'Game Design'
+        'System Design', 'Game Design', 'Matrix', 'Patterns', 'Design'
     ]);
 
     allCategories.forEach(cat => {
