@@ -1,0 +1,222 @@
+[
+  {
+    "id": "zd-001",
+    "title": "Find Maximum Element in Array",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Write a program to find the maximum element in an array of integers.",
+    "tags": ["array", "basic", "iteration"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/c-program-find-largest-element-array/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Initialize max with first element",
+      "Iterate through array comparing each element with current max",
+      "Update max if current element is greater"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-002",
+    "title": "Reverse a String",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Write a program to reverse a given string.",
+    "tags": ["string", "basic", "two-pointer"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/reverse-string/",
+      "gfg": "https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use two pointers - one at start, one at end",
+      "Swap characters and move pointers towards center",
+      "Continue until pointers meet"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-003",
+    "title": "Check if Number is Prime",
+    "difficulty": "Easy",
+    "category": "Mathematics",
+    "description": "Write a program to check whether a given number is prime or not.",
+    "tags": ["prime", "mathematics", "optimization"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/prime-numbers/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Numbers less than 2 are not prime",
+      "Check divisibility from 2 to sqrt(n)",
+      "If divisible by any number, it's not prime"
+    ],
+    "timeComplexity": "O(sqrt(n))",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-004",
+    "title": "Find Factorial of Number",
+    "difficulty": "Easy",
+    "category": "Mathematics",
+    "description": "Write a program to calculate the factorial of a given number.",
+    "tags": ["factorial", "recursion", "iteration"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/program-for-factorial-of-a-number/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Factorial of n = n * (n-1) * (n-2) * ... * 1",
+      "Base case: factorial of 0 and 1 is 1",
+      "Can be solved using iteration or recursion"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1) iterative, O(n) recursive",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-005",
+    "title": "Sum of Digits",
+    "difficulty": "Easy",
+    "category": "Mathematics",
+    "description": "Write a program to find the sum of digits of a given number.",
+    "tags": ["digits", "mathematics", "basic"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/program-for-sum-of-the-digits-of-a-given-number/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use modulo (%) operator to get last digit",
+      "Use division (/) to remove last digit",
+      "Continue until number becomes 0"
+    ],
+    "timeComplexity": "O(log n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-006",
+    "title": "Check Palindrome String",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Write a program to check if a given string is a palindrome.",
+    "tags": ["string", "palindrome", "two-pointer"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/valid-palindrome/",
+      "gfg": "https://www.geeksforgeeks.org/c-program-check-given-string-palindrome/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Compare characters from both ends",
+      "Use two pointers moving towards center",
+      "If any pair doesn't match, it's not a palindrome"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-007",
+    "title": "Find GCD of Two Numbers",
+    "difficulty": "Easy",
+    "category": "Mathematics",
+    "description": "Write a program to find the Greatest Common Divisor (GCD) of two numbers.",
+    "tags": ["gcd", "euclidean", "mathematics"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/c-program-find-gcd-hcf-two-numbers/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Use Euclidean algorithm",
+      "GCD(a, b) = GCD(b, a % b)",
+      "Base case: when b becomes 0, return a"
+    ],
+    "timeComplexity": "O(log(min(a,b)))",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-008",
+    "title": "Find LCM of Two Numbers",
+    "difficulty": "Easy",
+    "category": "Mathematics",
+    "description": "Write a program to find the Least Common Multiple (LCM) of two numbers.",
+    "tags": ["lcm", "gcd", "mathematics"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/program-to-find-lcm-of-two-numbers/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "LCM(a, b) = (a * b) / GCD(a, b)",
+      "First find GCD of two numbers",
+      "Use the formula to calculate LCM"
+    ],
+    "timeComplexity": "O(log(min(a,b)))",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-009",
+    "title": "Check Armstrong Number",
+    "difficulty": "Easy",
+    "category": "Mathematics",
+    "description": "Write a program to check if a given number is an Armstrong number (sum of cubes of digits equals the number).",
+    "tags": ["armstrong", "digits", "mathematics"],
+    "practiceLinks": {
+      "leetcode": "",
+      "gfg": "https://www.geeksforgeeks.org/program-for-armstrong-numbers/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Armstrong number: sum of cubes of digits equals original number",
+      "Example: 153 = 1³ + 5³ + 3³ = 1 + 125 + 27 = 153",
+      "Extract each digit, cube it, and add to sum"
+    ],
+    "timeComplexity": "O(log n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  },
+  {
+    "id": "zd-010",
+    "title": "Print Fibonacci Series",
+    "difficulty": "Easy",
+    "category": "Mathematics",
+    "description": "Write a program to print the first n numbers of the Fibonacci series.",
+    "tags": ["fibonacci", "series", "dynamic-programming"],
+    "practiceLinks": {
+      "leetcode": "https://leetcode.com/problems/fibonacci-number/",
+      "gfg": "https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/",
+      "hackerrank": "",
+      "codechef": ""
+    },
+    "hints": [
+      "Fibonacci series: 0, 1, 1, 2, 3, 5, 8, 13, ...",
+      "Each number is sum of previous two numbers",
+      "Start with first two numbers: 0 and 1"
+    ],
+    "timeComplexity": "O(n)",
+    "spaceComplexity": "O(1)",
+    "companies": ["Zoho"]
+  }
+]

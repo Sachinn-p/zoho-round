@@ -11,7 +11,8 @@ class ProgressTracker {
         return saved ? JSON.parse(saved) : {
             'c-programming': {},
             'zoho-dsa': {},
-            'lld': {}
+            'lld': {},
+            'zoho-docs': {}
         };
     }
 
@@ -70,7 +71,8 @@ class ProgressTracker {
         const categoryTotals = {
             'c-programming': 22,
             'zoho-dsa': 50,
-            'lld': 18
+            'lld': 18,
+            'zoho-docs': 10
         };
 
         const stats = this.getCategoryStats(category, categoryTotals[category]);
@@ -84,7 +86,8 @@ class ProgressTracker {
         const textMap = {
             'c-programming': 'cProgress',
             'zoho-dsa': 'dsaProgress',
-            'lld': 'lldProgress'
+            'lld': 'lldProgress',
+            'zoho-docs': 'docsProgress'
         };
 
         const textElement = document.getElementById(textMap[category]);
@@ -128,7 +131,8 @@ class ProgressTracker {
             this.progress = {
                 'c-programming': {},
                 'zoho-dsa': {},
-                'lld': {}
+                'lld': {},
+                'zoho-docs': {}
             };
         }
         this.saveProgress();
@@ -141,7 +145,7 @@ const progressTracker = new ProgressTracker();
 
 // Update all category progress on page load
 if (document.querySelector('.categories')) {
-    ['c-programming', 'zoho-dsa', 'lld'].forEach(category => {
+    ['c-programming', 'zoho-dsa', 'lld', 'zoho-docs'].forEach(category => {
         progressTracker.updateCategoryProgress(category);
     });
 }
