@@ -111,11 +111,12 @@ async function performGlobalSearch(searchTerm, difficulty = '', category = '') {
 
     try {
         // Load all question files
-        const [cQuestions, dsaQuestions, lldQuestions, docsQuestions] = await Promise.all([
+        const [cQuestions, dsaQuestions, lldQuestions, docsQuestions, logicalQuestions] = await Promise.all([
             fetch('data/c-questions.json').then(r => r.json()),
             fetch('data/dsa-questions.json').then(r => r.json()),
             fetch('data/lld-questions.json').then(r => r.json()),
-            fetch('data/zoho-docs.json').then(r => r.json())
+            fetch('data/zoho-docs.json').then(r => r.json()),
+            fetch('data/logical-coding.json').then(r => r.json())
         ]);
 
         // Combine and tag with source
@@ -123,7 +124,8 @@ async function performGlobalSearch(searchTerm, difficulty = '', category = '') {
             ...cQuestions.map(q => ({ ...q, source: 'c-programming', sourceName: 'C Programming' })),
             ...dsaQuestions.map(q => ({ ...q, source: 'zoho-dsa', sourceName: 'Zoho DSA' })),
             ...lldQuestions.map(q => ({ ...q, source: 'lld', sourceName: 'Low Level Design' })),
-            ...docsQuestions.map(q => ({ ...q, source: 'zoho-docs', sourceName: 'Zoho-Docs Questions' }))
+            ...docsQuestions.map(q => ({ ...q, source: 'zoho-docs', sourceName: 'Zoho-Docs Questions' })),
+            ...logicalQuestions.map(q => ({ ...q, source: 'logical-coding', sourceName: 'Logical Coding' }))
         ];
 
         // Filter questions
@@ -186,7 +188,9 @@ if (document.getElementById('globalSearch')) {
         'Dynamic Programming', 'Mathematical Problems', 'Greedy Algorithms', 'Backtracking',
         'Arrays & Strings', 'Functions', 'Pointers', 'Structures & Unions', 'File Handling',
         'Advanced Topics', 'Basic Concepts', 'Control Structures',
-        'System Design', 'Game Design', 'Matrix', 'Patterns', 'Design'
+        'System Design', 'Game Design', 'Matrix', 'Patterns', 'Design',
+        'Pattern Printing Problems', 'Number System Problems', 'Array and Sorting Problems',
+        'Recursive Algorithm Problems', 'String and File Handling Problems', 'Data Structures Problems'
     ]);
 
     allCategories.forEach(cat => {

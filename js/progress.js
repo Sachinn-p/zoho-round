@@ -12,7 +12,8 @@ class ProgressTracker {
             'c-programming': {},
             'zoho-dsa': {},
             'lld': {},
-            'zoho-docs': {}
+            'zoho-docs': {},
+            'logical-coding': {}
         };
     }
 
@@ -72,7 +73,8 @@ class ProgressTracker {
             'c-programming': 22,
             'zoho-dsa': 50,
             'lld': 18,
-            'zoho-docs': 106
+            'zoho-docs': 106,
+            'logical-coding': 97
         };
 
         const stats = this.getCategoryStats(category, categoryTotals[category]);
@@ -87,7 +89,8 @@ class ProgressTracker {
             'c-programming': 'cProgress',
             'zoho-dsa': 'dsaProgress',
             'lld': 'lldProgress',
-            'zoho-docs': 'docsProgress'
+            'zoho-docs': 'docsProgress',
+            'logical-coding': 'logicalProgress'
         };
 
         const textElement = document.getElementById(textMap[category]);
@@ -132,7 +135,8 @@ class ProgressTracker {
                 'c-programming': {},
                 'zoho-dsa': {},
                 'lld': {},
-                'zoho-docs': {}
+                'zoho-docs': {},
+                'logical-coding': {}
             };
         }
         this.saveProgress();
@@ -145,7 +149,27 @@ const progressTracker = new ProgressTracker();
 
 // Update all category progress on page load
 if (document.querySelector('.categories')) {
-    ['c-programming', 'zoho-dsa', 'lld', 'zoho-docs'].forEach(category => {
+    ['c-programming', 'zoho-dsa', 'lld', 'zoho-docs', 'logical-coding'].forEach(category => {
         progressTracker.updateCategoryProgress(category);
     });
+}
+
+// Helper functions for question pages
+function isQuestionCompleted(category, questionId) {
+    const status = progressTracker.getQuestionStatus(category, questionId);
+    return status.status === 'solved';
+}
+
+function isQuestionBookmarked(category, questionId) {
+    return progressTracker.isBookmarked(category, questionId);
+}
+
+function toggleQuestionComplete(category, questionId) {
+    const status = progressTracker.getQuestionStatus(category, questionId);
+    const newStatus = status.status === 'solved' ? 'unsolved' : 'solved';
+    progressTracker.setQuestionStatus(category, questionId, newStatus);
+}
+
+function toggleQuestionBookmark(category, questionId) {
+    return progressTracker.toggleBookmark(category, questionId);
 }
