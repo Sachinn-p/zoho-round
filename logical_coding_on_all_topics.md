@@ -112,4 +112,3 @@ This document contains comprehensive coding questions covering various topics in
 - [Check valid chess board configuration (9 knights)](#practice-ds-18)
 - [Build two towers with blocks to desired heights](#practice-ds-19)
 - [Remove digits iteratively until list is empty](#practice-ds-20)
-
