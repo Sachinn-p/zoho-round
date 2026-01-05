@@ -13,10 +13,13 @@
     --accent-light: #eef2ff;
     --success-color: #10b981;
     --success-light: #d1fae5;
+    --success-text: #10b981;
     --warning-color: #f59e0b;
     --warning-light: #fef3c7;
+    --warning-text: #f59e0b;
     --danger-color: #ef4444;
     --danger-light: #fee2e2;
+    --danger-text: #ef4444;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -38,9 +41,12 @@
     --text-muted: #94a3b8;
     --border-color: #334155;
     --accent-light: #1e1b4b;
-    --success-light: #064e3b;
-    --warning-light: #78350f;
-    --danger-light: #7f1d1d;
+    --success-light: rgba(16, 185, 129, 0.2);
+    --success-text: #6ee7b7;
+    --warning-light: rgba(245, 158, 11, 0.2);
+    --warning-text: #fcd34d;
+    --danger-light: rgba(239, 68, 68, 0.2);
+    --danger-text: #fca5a5;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
     --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
@@ -72,7 +78,6 @@ body {
 
 /* Header */
 header {
-    background-color: var(--bg-secondary);
     box-shadow: var(--shadow-sm);
     padding: 1.25rem 0;
     position: sticky;
@@ -358,7 +363,7 @@ header h1 {
 
 .progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, #10b981, #6366f1);
+    background: linear-gradient(90deg, var(--success-color), var(--accent-color));
     border-radius: var(--border-radius);
     width: 0%;
     transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -373,8 +378,12 @@ header h1 {
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
     animation: shimmer 2s infinite;
+}
+
+[data-theme="dark"] .progress-fill::after {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
 }
 
 @keyframes shimmer {
@@ -597,33 +606,18 @@ header h1 {
 }
 
 .difficulty-Easy {
-    background: #d4edda;
-    color: #155724;
-}
-
-[data-theme="dark"] .difficulty-Easy {
-    background: #1e4620;
-    color: #7dd87f;
+    background: var(--success-light);
+    color: var(--success-text);
 }
 
 .difficulty-Medium {
-    background: #fff3cd;
-    color: #856404;
-}
-
-[data-theme="dark"] .difficulty-Medium {
-    background: #4d3e1a;
-    color: #ffdb4d;
+    background: var(--warning-light);
+    color: var(--warning-text);
 }
 
 .difficulty-Hard {
-    background: #f8d7da;
-    color: #721c24;
-}
-
-[data-theme="dark"] .difficulty-Hard {
-    background: #4a1d22;
-    color: #ff6b7a;
+    background: var(--danger-light);
+    color: var(--danger-text);
 }
 
 .category-badge {
@@ -996,32 +990,17 @@ footer p {
 
 .difficulty-easy {
     background: var(--success-light);
-    color: var(--success-color);
-}
-
-[data-theme="dark"] .difficulty-easy {
-    background: rgba(16, 185, 129, 0.2);
-    color: #6ee7b7;
+    color: var(--success-text);
 }
 
 .difficulty-medium {
     background: var(--warning-light);
-    color: var(--warning-color);
-}
-
-[data-theme="dark"] .difficulty-medium {
-    background: rgba(245, 158, 11, 0.2);
-    color: #fcd34d;
+    color: var(--warning-text);
 }
 
 .difficulty-hard {
     background: var(--danger-light);
-    color: var(--danger-color);
-}
-
-[data-theme="dark"] .difficulty-hard {
-    background: rgba(239, 68, 68, 0.2);
-    color: #fca5a5;
+    color: var(--danger-text);
 }
 
 .category-tag {
