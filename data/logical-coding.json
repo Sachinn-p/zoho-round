@@ -1,0 +1,972 @@
+[
+  {
+    "id": "lc-001",
+    "title": "Print the word with odd letters forming a pattern (e.g., PROGRAM)",
+    "difficulty": "Easy",
+    "category": "Pattern Printing Problems",
+    "description": "Print the word with odd letters forming a pattern. For example, for PROGRAM: P      P, R    R, O  O, G, R  R, A    A, M      M",
+    "tags": ["pattern", "printing", "loops"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/problems/pattern-printing"
+  },
+  {
+    "id": "lc-002",
+    "title": "Print a diamond pattern for given input size",
+    "difficulty": "Easy",
+    "category": "Pattern Printing Problems",
+    "description": "Print a diamond pattern with asterisks for a given size N. For N=3: *, ***, *****, ***, *",
+    "tags": ["pattern", "diamond", "loops"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/programs-printing-pyramid-patterns-python"
+  },
+  {
+    "id": "lc-003",
+    "title": "Print a number pattern in triangle form",
+    "difficulty": "Easy",
+    "category": "Pattern Printing Problems",
+    "description": "Print a number pattern in triangle form with specific numbering sequence",
+    "tags": ["pattern", "numbers", "triangle"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/programs-printing-pyramid-patterns-c"
+  },
+  {
+    "id": "lc-004",
+    "title": "Print a snake pattern without using arrays",
+    "difficulty": "Medium",
+    "category": "Pattern Printing Problems",
+    "description": "Given N, print a snake pattern (say N = 4): 1 2 3 4, 8 7 6 5, 9 10 11 12, 16 15 14 13. Must not use arrays (1D or 2D).",
+    "tags": ["pattern", "snake", "no-arrays"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/print-matrix-snake-pattern"
+  },
+  {
+    "id": "lc-005",
+    "title": "Print Latin Matrix without using strings or arrays",
+    "difficulty": "Medium",
+    "category": "Pattern Printing Problems",
+    "description": "Given N, print a Latin Matrix (say N = 3): A B C, B C A, C A B. Must not use strings, arrays (1D/2D), or inbuilt functions.",
+    "tags": ["pattern", "latin-square", "constraints"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/latin-square"
+  },
+  {
+    "id": "lc-006",
+    "title": "Print pattern with alternating characters (Hce akr from Hacker)",
+    "difficulty": "Easy",
+    "category": "Pattern Printing Problems",
+    "description": "Sample Input: Hacker, Rank. Sample Output: Hce akr, Rn ak",
+    "tags": ["pattern", "strings", "alternating"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/print-alternate-characters-string"
+  },
+  {
+    "id": "lc-007",
+    "title": "Print word from middle (e.g., PROGRAM from G)",
+    "difficulty": "Medium",
+    "category": "Pattern Printing Problems",
+    "description": "Given an odd length word, print it from the middle. Example: Input PROGRAM, Output: G, GR, GRA, GRAM, GRAMP, GRAMPR, GRAMPRO",
+    "tags": ["pattern", "strings", "middle"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/print-string-starting-middle"
+  },
+  {
+    "id": "lc-008",
+    "title": "Print binary pattern (000, 001, 010, etc.)",
+    "difficulty": "Easy",
+    "category": "Pattern Printing Problems",
+    "description": "For input N, print all binary combinations: For N=2: 00, 01, 10, 11. For N=3: 000, 001, 010, 011, 100, 101, 110, 111",
+    "tags": ["pattern", "binary", "combinations"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/generate-all-the-binary-strings-of-n-bits"
+  },
+  {
+    "id": "lc-009",
+    "title": "Print Pascal's triangle pattern",
+    "difficulty": "Easy",
+    "category": "Pattern Printing Problems",
+    "description": "Print Pascal's triangle for given input size. For INPUT 5: 1, 1 1, 1 2 1, 1 3 3 1, 1 4 6 4 1",
+    "tags": ["pattern", "pascal", "triangle"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/pascals-triangle/"
+  },
+  {
+    "id": "lc-010",
+    "title": "Find the maximum of three numbers",
+    "difficulty": "Easy",
+    "category": "Number System Problems",
+    "description": "Find and return the maximum among three given numbers",
+    "tags": ["numbers", "maximum", "comparison"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/program-find-largest-three-numbers"
+  },
+  {
+    "id": "lc-011",
+    "title": "Print total number of odd and even digits in a number",
+    "difficulty": "Easy",
+    "category": "Number System Problems",
+    "description": "Ex. Input: 1234567, Output: ODD 4, EVEN 3",
+    "tags": ["numbers", "digits", "counting"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/count-number-even-odd-elements-array"
+  },
+  {
+    "id": "lc-012",
+    "title": "Find second maximum from array",
+    "difficulty": "Easy",
+    "category": "Number System Problems",
+    "description": "Find the second maximum element in an array. Handle cases where all elements are same or only one element exists.",
+    "tags": ["array", "maximum", "sorting"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/find-second-largest-element-array"
+  },
+  {
+    "id": "lc-013",
+    "title": "Find whether a number is palindrome without using arrays or strings",
+    "difficulty": "Easy",
+    "category": "Number System Problems",
+    "description": "Check if a given number is a palindrome without using arrays or strings",
+    "tags": ["palindrome", "numbers", "constraints"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/palindrome-number/"
+  },
+  {
+    "id": "lc-014",
+    "title": "Check if a number is a twisted prime number",
+    "difficulty": "Medium",
+    "category": "Number System Problems",
+    "description": "A twisted prime is a prime number whose reverse is also prime. Input: 97, Output: Twisted Prime (97 and 79 both prime)",
+    "tags": ["prime", "palindrome", "number-theory"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/twisted-prime-number"
+  },
+  {
+    "id": "lc-015",
+    "title": "Print n prime numbers",
+    "difficulty": "Easy",
+    "category": "Number System Problems",
+    "description": "Print the first n prime numbers",
+    "tags": ["prime", "sieve", "numbers"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/program-to-find-prime-numbers-between-given-interval"
+  },
+  {
+    "id": "lc-016",
+    "title": "Sort array based on minimum prime factor",
+    "difficulty": "Medium",
+    "category": "Number System Problems",
+    "description": "Sort the array elements based on their minimum prime factor",
+    "tags": ["sorting", "prime", "factors"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/sort-array-according-count-set-bits"
+  },
+  {
+    "id": "lc-017",
+    "title": "Add a digit to all digits of a number",
+    "difficulty": "Easy",
+    "category": "Number System Problems",
+    "description": "Adding a digit to all the digits of a number. Ex: digit=4, number=2875, output=612119",
+    "tags": ["numbers", "digits", "arithmetic"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/add-1-number-represented-linked-list"
+  },
+  {
+    "id": "lc-018",
+    "title": "Check if number 'a' is present in another number 'b'",
+    "difficulty": "Easy",
+    "category": "Number System Problems",
+    "description": "Check if all digits of number 'a' are present in number 'b' in the same order",
+    "tags": ["numbers", "subsequence", "digits"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/check-large-number-divisible-3-not"
+  },
+  {
+    "id": "lc-019",
+    "title": "Find next smallest palindrome",
+    "difficulty": "Medium",
+    "category": "Number System Problems",
+    "description": "Given a number, find the next smallest palindrome greater than this number",
+    "tags": ["palindrome", "numbers", "greedy"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number"
+  },
+  {
+    "id": "lc-020",
+    "title": "Calculate sin(x) using series expansion",
+    "difficulty": "Medium",
+    "category": "Number System Problems",
+    "description": "Calculate sin(x) using the series expansion: sin(x) = x - x^3/3! + x^5/5! - ... Input x=30, n=10, Output=0.5",
+    "tags": ["mathematics", "series", "trigonometry"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/program-for-sine-series"
+  },
+  {
+    "id": "lc-021",
+    "title": "Multiply two numbers using only + operator",
+    "difficulty": "Medium",
+    "category": "Number System Problems",
+    "description": "Multiply two numbers using only the + operator with minimum iterations. Input: 3, 4, Output: 12",
+    "tags": ["mathematics", "operators", "optimization"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/russian-peasant-multiply-two-numbers-using-bitwise-operators"
+  },
+  {
+    "id": "lc-022",
+    "title": "Find minimum count to represent N as sum of numbers with only 0s and 1s",
+    "difficulty": "Hard",
+    "category": "Number System Problems",
+    "description": "Given N, find minimum count where N = x1 + x2 + ... xn, where xi has only 0s and 1s. Ex: N=33, Output: 3 (11+11+11)",
+    "tags": ["dp", "greedy", "numbers"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/represent-n-sum-minimum-possible-psuedobinary-numbers"
+  },
+  {
+    "id": "lc-023",
+    "title": "Replace every element with the greatest element on right side",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Replace every element with the next greatest element on the right side. Last element becomes -1. Ex: {16,17,4,3,5,2} -> {17,5,5,5,2,-1}",
+    "tags": ["array", "traversal", "rightmost"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side"
+  },
+  {
+    "id": "lc-024",
+    "title": "Find equilibrium index of an array",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find index where sum of left elements equals sum of right elements. Ex: {-7,1,5,2,-4,3,0}, Output: 3",
+    "tags": ["array", "prefix-sum", "equilibrium"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/find-pivot-index/"
+  },
+  {
+    "id": "lc-025",
+    "title": "Alternate sorting (largest, smallest, 2nd largest, 2nd smallest)",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Rearrange array alternating between largest and smallest. Input: {1,2,3,4,5,6,7}, Output: {7,1,6,2,5,3,4}",
+    "tags": ["sorting", "array", "rearrange"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/alternative-sorting"
+  },
+  {
+    "id": "lc-026",
+    "title": "Sort array - odd ascending, even descending",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "Sort odd numbers in ascending and even numbers in descending order. Input: 5 8 11 6 2 1 7, Output: 1 5 7 11 8 6 2",
+    "tags": ["sorting", "odd-even", "array"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/sort-even-numbers-ascending-odd-descending-order"
+  },
+  {
+    "id": "lc-027",
+    "title": "Find array element with equal sum on both sides",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find element where sum of left side equals sum of right side. Input: 1,2,3,7,6, Output: 7 (1+2+3=6)",
+    "tags": ["array", "prefix-sum", "balance"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/equilibrium-index-of-an-array"
+  },
+  {
+    "id": "lc-028",
+    "title": "Find extra element and its index between two arrays",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "Find the extra element and its index. Input: [10,20,30,12,5], [10,5,30,20], Output: 12 at index 4",
+    "tags": ["array", "comparison", "difference"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/find-element-appears-array-every-element-appears-twice"
+  },
+  {
+    "id": "lc-029",
+    "title": "Find least prime to make elements divisible",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find least prime that when added to first array element makes it divisible by second array element. Input: [20,7], [11,5], Output: [1,3]",
+    "tags": ["prime", "divisibility", "array"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/smallest-number-divide-x-y"
+  },
+  {
+    "id": "lc-030",
+    "title": "Sort by frequency of occurrence in descending order",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Sort elements by frequency (descending), then by value (ascending) for same frequency. Input: [2,2,3,4,5,12,2,3,3,3,12], Output: 3 3 3 3 2 2 2 12 12 4 5",
+    "tags": ["sorting", "frequency", "hashmap"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/sort-array-by-increasing-frequency/"
+  },
+  {
+    "id": "lc-031",
+    "title": "Print second frequently occurring number",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "Find second most frequent number. Input: 1 1 2 3 1 2 4, Output: 2 (1 occurs 3 times, 2 occurs 2 times)",
+    "tags": ["frequency", "counting", "array"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/second-frequent-character"
+  },
+  {
+    "id": "lc-032",
+    "title": "Print only Fibonacci numbers from array",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "Filter and print only Fibonacci numbers. Input: 2 10 4 8, Output: 2 8. Input: 1 10 6 8 13 21, Output: 1 8 13 21",
+    "tags": ["fibonacci", "array", "filtering"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/count-fibonacci-numbers-given-range-olog-n-time"
+  },
+  {
+    "id": "lc-033",
+    "title": "Find maximum sum contiguous subarray (Kadane's Algorithm)",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find maximum sum of contiguous subarray. Ex: {-2,-3,4,-1,-2,1,5,-3}, Output: 7 (elements [4,-1,-2,1,5])",
+    "tags": ["kadane", "dp", "subarray"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "id": "lc-034",
+    "title": "Find maximum sum contiguous subarray without negatives",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find largest sum contiguous subarray with no negative numbers. Array: {-2,7,5,-1,3,2,9,-7}, Output: Sum=14, Elements: 3,2,9",
+    "tags": ["subarray", "sum", "constraints"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray-having-only-non-negative-elements"
+  },
+  {
+    "id": "lc-035",
+    "title": "Rearrange array: 1st largest, 1st smallest, 2nd largest, etc.",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Rearrange array in form: 1st_largest, 1st_smallest, 2nd_largest, 2nd_smallest, 3rd_largest...",
+    "tags": ["rearrange", "sorting", "array"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form-set-2-o1-extra-space"
+  },
+  {
+    "id": "lc-036",
+    "title": "Sort by number of factors in descending order",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Sort array elements in descending order based on the number of factors each element has",
+    "tags": ["sorting", "factors", "counting"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/sort-array-according-count-set-bits"
+  },
+  {
+    "id": "lc-037",
+    "title": "Find next greater element for each element",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find next greater element for each element. Input: {6,3,9,10,8,2,1,15,7}, Output: {7,5,10,15,9,3,2,_,8}",
+    "tags": ["stack", "array", "next-greater"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/next-greater-element-i/"
+  },
+  {
+    "id": "lc-038",
+    "title": "Find top three repeated numbers",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find the three most frequently occurring numbers. Input: {3,4,2,3,16,3,15,16,15,15,16,2,3}, Output: 3, 16, 15",
+    "tags": ["frequency", "top-k", "array"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/frequent-element-array"
+  },
+  {
+    "id": "lc-039",
+    "title": "Print longest continuous range from unsorted array",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find longest continuous range. Input: 1 3 10 7 9 2 4 6, Output: 1 2 3 4",
+    "tags": ["array", "range", "sequence"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/longest-consecutive-sequence/"
+  },
+  {
+    "id": "lc-040",
+    "title": "Find union of two arrays",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "Find union of two arrays (unique elements). Input: [1,2,3,4,5,3], [1,2,7,5], Output: 1 2 3 4 5 7",
+    "tags": ["array", "union", "set-operations"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2"
+  },
+  {
+    "id": "lc-041",
+    "title": "Remove duplicates from array",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "Remove duplicate elements from array. Input: 1 1 2 4, Output: 1 2 4",
+    "tags": ["array", "duplicates", "filtering"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+  },
+  {
+    "id": "lc-042",
+    "title": "Form largest k-digit number from array elements",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Form largest k-digit number. Input: [1,4,973,97], k=3, Output: 974. Input: [1,4,89,73,9,7], k=5, Output: 98973",
+    "tags": ["greedy", "sorting", "string"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/largest-number-array-set-2-using-comparator"
+  },
+  {
+    "id": "lc-043",
+    "title": "Find maximum in sliding window",
+    "difficulty": "Hard",
+    "category": "Array and Sorting Problems",
+    "description": "Find maximum in each sliding window. Input: [1,3,5,2,1,8,6,9], k=3, Output: 5 5 5 8 8 9",
+    "tags": ["sliding-window", "deque", "array"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  {
+    "id": "lc-044",
+    "title": "Double consecutive numbers and shift zeros to end",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "If consecutive numbers are same, double first and make second 0, then shift all 0s to end. Input: {2,2,0,4,0,8}, Output: 4 4 8 0 0 0",
+    "tags": ["array", "manipulation", "zeros"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/move-zeroes-end-array"
+  },
+  {
+    "id": "lc-045",
+    "title": "Find pair with given sum in array",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "Find all pairs with given sum. Input: {1,2,4,3,5,6}, SUM=5, Output: 2 (pairs: (1,4) & (2,3))",
+    "tags": ["array", "two-pointer", "hashing"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "id": "lc-046",
+    "title": "Compute maximum for each integer by sum or product of digits",
+    "difficulty": "Easy",
+    "category": "Array and Sorting Problems",
+    "description": "For each integer, choose max of sum or product of digits. Input: [120,24,71,10,59], Output: [3,8,8,1,45]",
+    "tags": ["array", "digits", "math"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/maximum-product-digits-number"
+  },
+  {
+    "id": "lc-047",
+    "title": "Find all subsets with given sum",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Find all subsets that sum to N. Input: {2,3,5,8,10}, N=10, Output: {2,3,5}, {2,8}, {10}",
+    "tags": ["backtracking", "subset-sum", "recursion"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/combination-sum/"
+  },
+  {
+    "id": "lc-048",
+    "title": "Find safe position in circular queue (Josephus problem)",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Circular queue of processes, skip every kth process. Find safe position. Input: N=5, start=3, skip=2nd, Output: 1",
+    "tags": ["josephus", "circular", "queue"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/josephus-problem-set-1-a-on-solution"
+  },
+  {
+    "id": "lc-049",
+    "title": "Find minimum bike trips given weights and capacity",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Given person weights and bike capacity (max 2 persons), find minimum trips. Infinite bikes available.",
+    "tags": ["greedy", "optimization", "sorting"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/minimum-number-of-trips-required-to-transport-given-array"
+  },
+  {
+    "id": "lc-050",
+    "title": "Form largest number using array of numbers",
+    "difficulty": "Medium",
+    "category": "Array and Sorting Problems",
+    "description": "Form the largest possible number by concatenating array elements. Use custom sorting.",
+    "tags": ["sorting", "greedy", "string"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/largest-number/"
+  },
+  {
+    "id": "lc-051",
+    "title": "Find all permutations of a string (backtracking)",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Find all permutations of a string using backtracking approach",
+    "tags": ["backtracking", "permutation", "recursion"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/permutations/"
+  },
+  {
+    "id": "lc-052",
+    "title": "Print all distinct permutations with duplicate characters",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Find all distinct permutations of a string that may contain duplicate characters",
+    "tags": ["backtracking", "permutation", "duplicates"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/distinct-permutations-string-set-2"
+  },
+  {
+    "id": "lc-053",
+    "title": "Word segmentation using dictionary",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Check if string can be segmented into dictionary words. Dictionary: {i,like,sam,sung,samsung,mobile}. Input: 'ilikesamsung', Output: Yes",
+    "tags": ["dp", "recursion", "dictionary"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/word-break/"
+  },
+  {
+    "id": "lc-054",
+    "title": "Wildcard pattern matching",
+    "difficulty": "Hard",
+    "category": "Recursive Algorithm Problems",
+    "description": "Match text with wildcard pattern. '?' matches single char, '*' matches any sequence. Text='baaabab', Pattern='*****ba*****ab', Output: true",
+    "tags": ["dp", "pattern-matching", "recursion"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/wildcard-matching/"
+  },
+  {
+    "id": "lc-055",
+    "title": "Decode digit sequence (1=A, 2=B, etc.)",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Decode digit sequence where 1=A, 2=B, ..., 26=Z. How many ways to decode? Input: '121', Output: 3 (ABA, AU, LA)",
+    "tags": ["dp", "recursion", "decoding"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/decode-ways/"
+  },
+  {
+    "id": "lc-056",
+    "title": "Count possible decodings of digit sequence",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Count number of ways to decode digit sequence. Input: '1234', Output: 3 (ABCD, LCD, AWD)",
+    "tags": ["dp", "counting", "recursion"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/decode-ways/"
+  },
+  {
+    "id": "lc-057",
+    "title": "Print all possible words from phone digits",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Generate all possible words from phone digit mapping (like old phone keypads)",
+    "tags": ["backtracking", "recursion", "phone"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+  },
+  {
+    "id": "lc-058",
+    "title": "Print all codes from number (1=a, 26=z)",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Generate all possible codes. Input: 1123, Output: {1,1,2,3}=aabc, {11,2,3}=kbc, {1,1,23}=aaw, {11,23}=kw",
+    "tags": ["backtracking", "recursion", "decoding"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/print-ways-write-number-sum-positive-integers"
+  },
+  {
+    "id": "lc-059",
+    "title": "Reverse words in string using recursion",
+    "difficulty": "Easy",
+    "category": "Recursive Algorithm Problems",
+    "description": "Reverse word order using recursion. Input: 'one two three', Output: 'three two one'",
+    "tags": ["recursion", "strings", "reverse"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/reverse-words-given-string"
+  },
+  {
+    "id": "lc-060",
+    "title": "Find all combinations for given sum (order maintained)",
+    "difficulty": "Medium",
+    "category": "Recursive Algorithm Problems",
+    "description": "Find all combinations for sum N, maintain order. Input: 8 3 4 7 9, N=7, Output: {3,4}, {7}",
+    "tags": ["backtracking", "combination-sum", "recursion"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/combination-sum/"
+  },
+  {
+    "id": "lc-061",
+    "title": "Remove duplicates in string with replacement logic",
+    "difficulty": "Hard",
+    "category": "String and File Handling Problems",
+    "description": "Remove duplicates with special replacement. Input: Java1234, Output: Javb1234. Input: aBuzZ9900, Output: aBuzC9012 (complex replacement rules)",
+    "tags": ["strings", "duplicates", "replacement"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/remove-duplicates-from-a-given-string"
+  },
+  {
+    "id": "lc-062",
+    "title": "Compare version numbers (upgrade/downgrade)",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Compare versions and determine upgrade/downgrade. Input: v1=4.8.2, v2=4.8.4, Output: upgraded",
+    "tags": ["strings", "comparison", "parsing"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/compare-version-numbers/"
+  },
+  {
+    "id": "lc-063",
+    "title": "Reverse words from first occurrence maintaining spaces",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Reverse words from first occurrence of String2, maintain spaces. Input: 'This is a test String only', 'st', Output: 'This is a only String test'",
+    "tags": ["strings", "reverse", "parsing"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/reverse-words-in-a-given-string"
+  },
+  {
+    "id": "lc-064",
+    "title": "Reverse string keeping special characters intact",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Reverse string but keep special characters at same positions. Input: 'house no : 123@ cbe', Output: 'ebc32 1o : nes@ uoh'",
+    "tags": ["strings", "reverse", "special-chars"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/reverse-string-without-affecting-special-characters"
+  },
+  {
+    "id": "lc-065",
+    "title": "Check if string is palindrome with special characters",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Check palindrome ignoring spaces and special chars. Ex: 'RACE CAR', 'I DID, DID I ?'. No arrays/extra space.",
+    "tags": ["palindrome", "strings", "two-pointer"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/valid-palindrome/"
+  },
+  {
+    "id": "lc-066",
+    "title": "Pangram checking (all alphabets present)",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Check if all English alphabets are present. Input: 'abc defGhi JklmnOP QRStuv wxyz', Output: True",
+    "tags": ["strings", "hashing", "alphabets"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/pangram-checking"
+  },
+  {
+    "id": "lc-067",
+    "title": "Password strength checker",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Check password strength based on 4 rules (length, uppercase, lowercase, digits, special chars). Output: Weak/Medium/Good/Strong",
+    "tags": ["strings", "validation", "rules"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/password-strength-checker-using-regular-expressions"
+  },
+  {
+    "id": "lc-068",
+    "title": "First occurrences of characters between strings",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Find first occurrence of each char of s2 in s1, print range. Input: 'ZOHOCORPORATION', 'PORT', Output: 'OHOCORPORAT' (indices 1-11)",
+    "tags": ["strings", "indexing", "range"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/find-first-occurrence-of-any-word-from-given-list"
+  },
+  {
+    "id": "lc-069",
+    "title": "Remove characters from s1 present in s2",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Remove all characters from s1 that are in s2. Input: s1='expErIence', s2='En', Output: s1='exprIece'",
+    "tags": ["strings", "filtering", "set"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/remove-characters-from-the-first-string-which-are-present-in-the-second-string"
+  },
+  {
+    "id": "lc-070",
+    "title": "Remove palindrome words from sentence",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Remove palindrome words. Input: 'He did a good deed', Output: 'He good'. Input: 'Hari speaks malayalam', Output: 'Hari speaks'",
+    "tags": ["strings", "palindrome", "words"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/remove-palindromic-words-from-string"
+  },
+  {
+    "id": "lc-071",
+    "title": "Print longest sequence between same characters",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Find longest distance between same characters. Input: 'abcccccbba', Output: 8 (a to a). Input: 'aaaaaaaa', Output: 6",
+    "tags": ["strings", "distance", "hashmap"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays"
+  },
+  {
+    "id": "lc-072",
+    "title": "Find anagrams in array for given word",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Find anagrams of given word in array. Input: ['catch','got','tiger','mat','eat','Pat','tap','tea'], word='ate', Output: eat, tea",
+    "tags": ["anagram", "strings", "hashing"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+  },
+  {
+    "id": "lc-073",
+    "title": "Lexicographic sorting",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Sort strings in lexicographic (dictionary) order",
+    "tags": ["sorting", "strings", "lexicographic"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/lexicographic-rank-of-a-string"
+  },
+  {
+    "id": "lc-074",
+    "title": "Print true if second string is substring with wildcard",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Check if s2 is substring of s1 with wildcard. '*' can replace n chars. Input: 'Spoon', 'Sp*n', Output: TRUE",
+    "tags": ["strings", "pattern-matching", "wildcard"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/wildcard-pattern-matching"
+  },
+  {
+    "id": "lc-075",
+    "title": "Reverse only vowels in string",
+    "difficulty": "Easy",
+    "category": "String and File Handling Problems",
+    "description": "Reverse only vowels, keep consonants in place. Input: 'abcdef', Output: 'ebcdaf'",
+    "tags": ["strings", "vowels", "two-pointer"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/reverse-vowels-of-a-string/"
+  },
+  {
+    "id": "lc-076",
+    "title": "Find words in matrix (right, down, diagonal)",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Search words from dictionary in matrix (right, down, diagonal). Dictionary: {van,zoho,love,are,is}",
+    "tags": ["matrix", "strings", "search"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/word-search/"
+  },
+  {
+    "id": "lc-077",
+    "title": "Form lines using words with character limit",
+    "difficulty": "Medium",
+    "category": "String and File Handling Problems",
+    "description": "Form lines with max chars, favorite char doesn't count, words can't break. Input: max=10, fav='o', words=['Zoho','Eating','Watching','Pogo','Loving','Mango']",
+    "tags": ["strings", "greedy", "line-breaking"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/word-wrap-problem-dp-19"
+  },
+  {
+    "id": "lc-078",
+    "title": "Modify Boolean matrix - make adjacent cells 0",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "If matrix cell mat[i][j]=1, make adjacent cells 0",
+    "tags": ["matrix", "boolean", "adjacent"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/a-boolean-matrix-question"
+  },
+  {
+    "id": "lc-079",
+    "title": "MS-Paint bucket fill algorithm",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Implement flood fill algorithm. Replace color of pixel and all adjacent same-colored pixels with new color (like MS-Paint bucket tool)",
+    "tags": ["matrix", "dfs", "flood-fill"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/flood-fill/"
+  },
+  {
+    "id": "lc-080",
+    "title": "Print matrix in ZIG-ZAG fashion",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Print matrix in zig-zag diagonal order. Input: [[1,2,3],[4,5,6],[7,8,9]], Output: 1 2 4 7 5 3 6 8 9",
+    "tags": ["matrix", "traversal", "zigzag"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/print-matrix-zag-zag-fashion"
+  },
+  {
+    "id": "lc-081",
+    "title": "Print matrix diagonal sum (largest triangle)",
+    "difficulty": "Easy",
+    "category": "Data Structures Problems",
+    "description": "Given matrix, print larger sum of two triangles split by diagonal (top-right to bottom-left)",
+    "tags": ["matrix", "diagonal", "sum"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/efficiently-compute-sums-of-diagonals-of-a-matrix"
+  },
+  {
+    "id": "lc-082",
+    "title": "Matrix addition of variable length arrays",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Given n arrays of different sizes, find addition treating as rows. Input: 4, [3,5,4,2], [2,4,5], [4,5,6,7,8], [4,9,2,1], [1,2], Output: 50856",
+    "tags": ["matrix", "addition", "carry"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/sum-of-matrix-in-which-each-element-is-absolute-difference-of-its-row-and-column-numbers"
+  },
+  {
+    "id": "lc-083",
+    "title": "Find rectangle in matrix and its sum",
+    "difficulty": "Easy",
+    "category": "Data Structures Problems",
+    "description": "Print rectangle formed by given indices and its sum. Input: matrix, indices (2,0) and (3,4), Output: rectangle and sum=54",
+    "tags": ["matrix", "rectangle", "sum"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/submatrix-sum-queries"
+  },
+  {
+    "id": "lc-084",
+    "title": "Find number of islands in matrix",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Count islands in matrix where -1=ocean, 1=land. Connected 1s form an island",
+    "tags": ["matrix", "dfs", "islands"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/number-of-islands/"
+  },
+  {
+    "id": "lc-085",
+    "title": "NxN matrix pathfinding (0=block, 1=path)",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Find path from (0,0) to (N-1,N-1) where 0=block, 1=path. Can only move right or down. Print one valid path.",
+    "tags": ["matrix", "pathfinding", "backtracking"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2"
+  },
+  {
+    "id": "lc-086",
+    "title": "Find shortest path in matrix (right and down only)",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Find shortest path from one element to another using only right and down moves",
+    "tags": ["matrix", "shortest-path", "dp"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/min-cost-path-dp-6"
+  },
+  {
+    "id": "lc-087",
+    "title": "Print unique rows in matrix",
+    "difficulty": "Easy",
+    "category": "Data Structures Problems",
+    "description": "Print matrix without duplicate rows. Input: [[1,0,1],[1,1,0],[1,1,1],[1,0,1]], Output: [[1,0,1],[1,1,0],[1,1,1]]",
+    "tags": ["matrix", "duplicates", "hashing"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/print-unique-rows"
+  },
+  {
+    "id": "lc-088",
+    "title": "Track grid position after movements (L/R/U/D)",
+    "difficulty": "Easy",
+    "category": "Data Structures Problems",
+    "description": "Given initial position (x,y) and movements (L/R/U/D), find final position. Input: (4,5), 9 moves: U L R R D D U L R, Output: (5,5)",
+    "tags": ["grid", "simulation", "movement"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/robot-return-origin"
+  },
+  {
+    "id": "lc-089",
+    "title": "Insert 0 after consecutive K 1s in bit array",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Insert 0 after K consecutive 1s. Input: [1,0,1,1,0,1,1,0,1,1,1,1], K=2, Output: [1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,0]",
+    "tags": ["array", "bits", "insertion"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/insert-0-middle-n-consecutive-1s-binary-number"
+  },
+  {
+    "id": "lc-090",
+    "title": "Find total days between two dates",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Calculate days between two dates considering leap years. Input: 10-Feb-2014 to 10-Mar-2015, Output: 393",
+    "tags": ["date", "math", "calendar"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/find-number-of-days-between-two-given-dates"
+  },
+  {
+    "id": "lc-091",
+    "title": "Implement LRU (Least Recently Used) cache",
+    "difficulty": "Hard",
+    "category": "Data Structures Problems",
+    "description": "Implement LRU cache with capacity 10. If cache full and new key added, remove least recently used item",
+    "tags": ["cache", "lru", "hashmap"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://leetcode.com/problems/lru-cache/"
+  },
+  {
+    "id": "lc-092",
+    "title": "Find children at given level in family tree",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Given parent-child pairs and a person with level, find count of children at that level. Input: pairs, 'Syam', level=2, Output: 3",
+    "tags": ["tree", "bfs", "level-order"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/count-nodes-at-given-level-in-tree-using-bfs"
+  },
+  {
+    "id": "lc-093",
+    "title": "Count occurrences of each number",
+    "difficulty": "Easy",
+    "category": "Data Structures Problems",
+    "description": "Count frequency of each element. Input: {2,3,2,6,1,6,2}, Output: 1-1, 2-3, 3-1, 6-2",
+    "tags": ["hashmap", "frequency", "counting"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/counting-frequencies-array-elements"
+  },
+  {
+    "id": "lc-094",
+    "title": "Find minimum of greater numbers for each element",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "For each element, find minimum of all greater elements. Array: {2,3,7,-1,8,5,11}, Output: {2->3, 3->5, 7->8, -1->2, 8->11, 5->7, 11->}",
+    "tags": ["array", "stack", "next-greater"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/next-greater-element"
+  },
+  {
+    "id": "lc-095",
+    "title": "Check valid chess board configuration (9 knights)",
+    "difficulty": "Hard",
+    "category": "Data Structures Problems",
+    "description": "Given 5x5 chess board with 9 knights, check if configuration is valid (no knight attacks another)",
+    "tags": ["chess", "validation", "knights"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1"
+  },
+  {
+    "id": "lc-096",
+    "title": "Build two towers with blocks to desired heights",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Given 6 blocks, build 2 towers using 3 blocks each to reach desired heights. Input: blocks=[1,2,5,4,3,6], heights=[6,15], Output: 1 2 3 & 4 5 6",
+    "tags": ["backtracking", "subset-sum", "combinations"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum"
+  },
+  {
+    "id": "lc-097",
+    "title": "Remove digits iteratively until list is empty",
+    "difficulty": "Medium",
+    "category": "Data Structures Problems",
+    "description": "Given set of numbers and digit in each iteration, remove digit occurrences until list empty",
+    "tags": ["simulation", "digit-removal", "iteration"],
+    "companies": ["Zoho"],
+    "practiceLink": "https://www.geeksforgeeks.org/remove-all-occurrences-of-an-element-from-array-in-java"
+  }
+]

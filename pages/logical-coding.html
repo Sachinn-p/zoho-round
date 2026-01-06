@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Coding Questions - Zoho Practice Platform</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><a href="../index.html" class="home-link">🚀 Zoho Practice Platform</a></h1>
+                <div class="header-controls">
+                    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h2>🧠 Logical Coding Questions</h2>
+            <p>Comprehensive collection of 97 logical coding questions across 6 categories</p>
+        </div>
+
+        <div class="controls-bar">
+            <div class="search-container">
+                <input type="text" id="questionSearch" placeholder="Search questions..." class="search-input">
+            </div>
+            <div class="filter-container">
+                <select id="difficultyFilter" class="filter-select">
+                    <option value="">All Difficulties</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+                <select id="categoryFilter" class="filter-select">
+                    <option value="">All Topics</option>
+                    <option value="Pattern Printing Problems">Pattern Printing Problems</option>
+                    <option value="Number System Problems">Number System Problems</option>
+                    <option value="Array and Sorting Problems">Array and Sorting Problems</option>
+                    <option value="Recursive Algorithm Problems">Recursive Algorithm Problems</option>
+                    <option value="String and File Handling Problems">String and File Handling Problems</option>
+                    <option value="Data Structures Problems">Data Structures Problems</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Total Questions:</span>
+                <span class="stat-value" id="totalQuestions">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Completed:</span>
+                <span class="stat-value" id="completedQuestions">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Bookmarked:</span>
+                <span class="stat-value" id="bookmarkedQuestions">0</span>
+            </div>
+        </div>
+
+        <div id="questionsContainer" class="questions-grid"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zoho Practice Platform. Built for interview preparation.</p>
+        </div>
+    </footer>
+
+    <script src="../js/progress.js"></script>
+    <script>
+        const CATEGORY = 'logical-coding';
+        let allQuestions = [];
+        let filteredQuestions = [];
+
+        // Load questions
+        async function loadQuestions() {
+            try {
+                const response = await fetch('../data/logical-coding.json');
+                allQuestions = await response.json();
+                filteredQuestions = allQuestions;
+                updateStats();
+                renderQuestions();
+            } catch (error) {
+                console.error('Error loading questions:', error);
+            }
+        }
+
+        // Render questions
+        function renderQuestions() {
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+
+            if (filteredQuestions.length === 0) {
+                container.innerHTML = '<p class="no-results">No questions found matching your filters.</p>';
+                return;
+            }
+
+            filteredQuestions.forEach(question => {
+                const card = createQuestionCard(question);
+                container.appendChild(card);
+            });
+        }
+
+        // Create question card
+        function createQuestionCard(question) {
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            
+            const isCompleted = isQuestionCompleted(CATEGORY, question.id);
+            const isBookmarked = isQuestionBookmarked(CATEGORY, question.id);
+            
+            if (isCompleted) card.classList.add('completed');
+
+            card.innerHTML = `
+                <div class="question-header">
+                    <span class="question-id">${question.id}</span>
+                    <div class="question-actions">
+                        <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" 
+                                onclick="toggleBookmark('${CATEGORY}', '${question.id}')"
+                                aria-label="Bookmark">
+                            ${isBookmarked ? '⭐' : '☆'}
+                        </button>
+                        <button class="complete-btn ${isCompleted ? 'completed' : ''}" 
+                                onclick="toggleComplete('${CATEGORY}', '${question.id}')"
+                                aria-label="Mark as complete">
+                            ${isCompleted ? '✓' : '○'}
+                        </button>
+                    </div>
+                </div>
+                <h3 class="question-title">${question.title}</h3>
+                <div class="question-meta">
+                    <span class="difficulty difficulty-${question.difficulty.toLowerCase()}">${question.difficulty}</span>
+                    <span class="category-tag">${question.category}</span>
+                </div>
+                <p class="question-description">${question.description}</p>
+                <div class="question-tags">
+                    ${question.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                </div>
+                <div class="question-footer">
+                    <span class="company-tag">🏢 ${question.companies.join(', ')}</span>
+                    <a href="${question.practiceLink}" target="_blank" class="practice-link">Practice →</a>
+                </div>
+            `;
+
+            return card;
+        }
+
+        // Update stats
+        function updateStats() {
+            document.getElementById('totalQuestions').textContent = allQuestions.length;
+            
+            const completed = allQuestions.filter(q => 
+                isQuestionCompleted(CATEGORY, q.id)
+            ).length;
+            document.getElementById('completedQuestions').textContent = completed;
+            
+            const bookmarked = allQuestions.filter(q => 
+                isQuestionBookmarked(CATEGORY, q.id)
+            ).length;
+            document.getElementById('bookmarkedQuestions').textContent = bookmarked;
+        }
+
+        // Filter questions
+        function filterQuestions() {
+            const searchTerm = document.getElementById('questionSearch').value.toLowerCase();
+            const difficulty = document.getElementById('difficultyFilter').value;
+            const category = document.getElementById('categoryFilter').value;
+
+            filteredQuestions = allQuestions.filter(question => {
+                const matchesSearch = question.title.toLowerCase().includes(searchTerm) ||
+                                    question.description.toLowerCase().includes(searchTerm) ||
+                                    question.tags.some(tag => tag.toLowerCase().includes(searchTerm));
+                const matchesDifficulty = !difficulty || question.difficulty === difficulty;
+                const matchesCategory = !category || question.category === category;
+
+                return matchesSearch && matchesDifficulty && matchesCategory;
+            });
+
+            renderQuestions();
+        }
+
+        // Toggle complete
+        window.toggleComplete = function(category, questionId) {
+            toggleQuestionComplete(category, questionId);
+            updateStats();
+            renderQuestions();
+        };
+
+        // Toggle bookmark
+        window.toggleBookmark = function(category, questionId) {
+            toggleQuestionBookmark(category, questionId);
+            updateStats();
+            renderQuestions();
+        };
+
+        // Event listeners
+        document.getElementById('questionSearch').addEventListener('input', filterQuestions);
+        document.getElementById('difficultyFilter').addEventListener('change', filterQuestions);
+        document.getElementById('categoryFilter').addEventListener('change', filterQuestions);
+
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('.theme-icon');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+            themeIcon.textContent = '☀️';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            const isDark = document.body.classList.contains('dark-theme');
+            themeIcon.textContent = isDark ? '☀️' : '🌙';
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+
+        // Initialize
+        loadQuestions();
+    </script>
+</body>
+</html>
