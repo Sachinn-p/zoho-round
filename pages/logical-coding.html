@@ -75,6 +75,7 @@
     </footer>
 
     <script src="../js/progress.js"></script>
+    <script src="../js/main.js"></script>
     <script>
         const CATEGORY = 'logical-coding';
         let allQuestions = [];
@@ -206,22 +207,8 @@
         document.getElementById('difficultyFilter').addEventListener('change', filterQuestions);
         document.getElementById('categoryFilter').addEventListener('change', filterQuestions);
 
-        // Theme toggle
-        const themeToggle = document.getElementById('themeToggle');
-        const themeIcon = themeToggle.querySelector('.theme-icon');
-        const currentTheme = localStorage.getItem('theme') || 'light';
-
-        if (currentTheme === 'dark') {
-            document.body.classList.add('dark-theme');
-            themeIcon.textContent = '☀️';
-        }
-
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('dark-theme');
-            const isDark = document.body.classList.contains('dark-theme');
-            themeIcon.textContent = isDark ? '☀️' : '🌙';
-            localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        });
+        // Initialize theme manager from main.js
+        new ThemeManager();
 
         // Initialize
         loadQuestions();
